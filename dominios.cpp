@@ -164,3 +164,22 @@ void Data::setValor(string valor) {
     validar(valor);
     this->valor = valor;
 };
+
+void Dinheiro::validar (string valor) {
+    if (valor.size() < 0 || valor.size() > 1000000) {
+        throw invalid_argument("Valor inválido.");
+    };
+
+    for (int i = 0; i < valor.size(); i++) {
+        char caractere = valor[i];
+
+        if (!(caractere >= '0' & caractere <= '9')) {
+            throw invalid_argument("Valor possui caractere inválido.");
+        };
+    };
+};
+
+void Dinheiro::setValor(string valor) {
+    validar(valor);
+    this->valor = valor;
+};
