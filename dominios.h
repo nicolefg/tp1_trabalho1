@@ -68,5 +68,11 @@ public:
     void setValor(string);
 };
 
+class Percentual : public Dominio {
+private:
+    void validar(string);
+public:
+    void setValor(string);
+};
 
 #endif // DOMINIOS_HPP_INCLUDED
