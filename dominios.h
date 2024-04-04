@@ -19,4 +19,11 @@ inline string Dominio::getValor() const {
     return valor;
 };
 
+class CodigoPagamento : public Dominio {
+private:
+    void validar(string);
+public:
+    void setValor(string);
+};
+
 #endif // DOMINIOS_HPP_INCLUDED
