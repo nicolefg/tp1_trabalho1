@@ -183,3 +183,14 @@ void Dinheiro::setValor(string valor) {
     validar(valor);
     this->valor = valor;
 };
+
+void Estado::validar(string valor) {
+    if (valor != "Previsto" && valor != "Liquidado" && valor != "Inadimplente") {
+        throw invalid_argument("Estado inválido.");
+    };
+};
+
+void Estado::setValor(string valor) {
+    validar(valor);
+    this->valor = valor;
+};
