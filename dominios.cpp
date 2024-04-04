@@ -120,3 +120,47 @@ void CPF::setValor(string valor) {
     validar(valor);
     this->valor = valor;
 };
+
+void Data::validar(string valor) {
+    if ((valor.size() != 10) || (valor[2] != '-' | valor[5] != '-')) {
+        throw invalid_argument("Formato inválido.");
+    }
+    else {
+        int dia = stoi(valor.substr(0,2));
+        int mes = stoi(valor.substr(3,2));
+        int ano = stoi(valor.substr(6,4));
+
+        if (dia < 1 || dia > 31) {
+            throw invalid_argument("Dia inválido");
+        }
+        else if (mes < 1 || mes > 12) {
+            throw invalid_argument("Mês inválido");
+        }
+        else if (ano < 2000 || ano > 2100) {
+            throw invalid_argument("Ano inválido");
+        }
+        else if (mes == 2 && ano % 4 != 0 && dia > 28) {
+            throw invalid_argument("Data não existe");
+        }
+        else if (mes == 2 && dia > 29) {
+            throw invalid_argument("Data não existe");
+        }
+        else if (mes == 4 && dia > 30) {
+            throw invalid_argument("Data não existe");
+        }
+        else if (mes == 6 && dia > 30) {
+            throw invalid_argument("Data não existe");
+        }
+        else if (mes == 9 && dia > 30) {
+            throw invalid_argument("Data não existe");
+        }
+        else if (mes == 11 && dia > 30) {
+            throw invalid_argument("Data não existe");
+        };
+    };
+};
+
+void Data::setValor(string valor) {
+    validar(valor);
+    this->valor = valor;
+};
