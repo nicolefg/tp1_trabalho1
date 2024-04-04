@@ -20,3 +20,28 @@ void CodigoPagamento::validar(string valor) {
         };
     };
 };
+
+void CodigoPagamento::setValor(string valor) {
+    validar(valor);
+    this->valor = valor;
+};
+
+void CodigoTitulo::validar(string valor) {
+    if (valor.size() != 11) {
+        throw invalid_argument("Código de título não possui 11 dígitos.");
+    };
+
+    for (int i = 0; i < 11; i++) {
+        char caractere = valor[i];
+
+        if (!((caractere >= '0' & caractere <= '9') |
+              (caractere >= 'A' & caractere <= 'Z'))) {
+            throw invalid_argument("Código de título possui caractere inválido.");
+        };
+    };
+};
+
+void CodigoTitulo::setValor(string valor) {
+    validar(valor);
+    this->valor = valor;
+};
