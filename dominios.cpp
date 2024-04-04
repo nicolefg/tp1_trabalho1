@@ -194,3 +194,22 @@ void Estado::setValor(string valor) {
     validar(valor);
     this->valor = valor;
 };
+
+void Percentual::validar (string valor) {
+    if (valor.size() < 0 || valor.size() > 100) {
+        throw invalid_argument("Valor inválido.");
+    };
+
+        for (int i = 0; i < valor.size(); i++) {
+        char caractere = valor[i];
+
+        if (!(caractere >= '0' & caractere <= '9')) {
+            throw invalid_argument("Valor possui caractere inválido.");
+        };
+    };
+};
+
+void Percentual::setValor(string valor) {
+    validar(valor);
+    this->valor = valor;
+};
