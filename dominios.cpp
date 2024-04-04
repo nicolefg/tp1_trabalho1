@@ -213,3 +213,52 @@ void Percentual::setValor(string valor) {
     validar(valor);
     this->valor = valor;
 };
+
+void Senha::validar(string valor) {
+    if (valor.size() != 6) {
+        throw invalid_argument("Senha não contém 6 caracteres.");
+    };
+
+     if (valor[0] == '0') {
+        throw invalid_argument("A senha não pode começar com 0.");
+    };
+
+    for (int i = 0; i < 6; i++) {
+        char caractere = valor[i];
+
+        if (!(caractere >= '0' & caractere <= '9')) {
+            throw invalid_argument("Senha possui caractere inválido.");
+        };
+
+        for (int j = i + 1; j < 6; j++) {
+            if (caractere == valor[j]) {
+                throw invalid_argument("Senha possui caracteres repetidos.");
+            };
+        };
+    };
+
+    bool crescente = true;
+    for (int i = 1; i < 6; i++) {
+        if (valor[i] <= valor[i - 1]) {
+            crescente = false;
+            break;
+        }
+    }
+
+    bool decrescente = true;
+    for (int i = 1; i < 6; i++) {
+        if (valor[i] >= valor[i - 1]) {
+            decrescente = false;
+            break;
+        }
+    }
+
+    if (crescente || decrescente) {
+        throw invalid_argument("A senha não pode estar em ordem crescente ou decrescente.");
+    }
+};
+
+void Senha::setValor(string valor) {
+    validar(valor);
+    this->valor = valor;
+};
