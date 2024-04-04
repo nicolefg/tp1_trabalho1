@@ -33,4 +33,11 @@ public:
     void setValor(string);
 };
 
+class CPF : public Dominio {
+private:
+    void validar(string);
+public:
+    void setValor(string);
+};
+
 #endif // DOMINIOS_HPP_INCLUDED
