@@ -262,3 +262,14 @@ void Senha::setValor(string valor) {
     validar(valor);
     this->valor = valor;
 };
+
+void Setor::validar(string valor) {
+    if (valor != "Agricultura" && valor != "Construção civil" && valor != "Energia" && valor != "Finanças" && valor != "Imobiliário" && valor != "Papel e celulose" && valor != "Pecuária" && valor != "Química e petroquímica" && valor != "Metalugia e siderurgia" && valor != "Mineração") {
+        throw invalid_argument("Setor inválido.");
+    };
+};
+
+void Setor::setValor(string valor) {
+    validar(valor);
+    this->valor = valor;
+};
