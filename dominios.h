@@ -82,4 +82,11 @@ public:
     void setValor(string);
 };
 
+class Setor : public Dominio {
+private:
+    void validar(string);
+public:
+    void setValor(string);
+};
+
 #endif // DOMINIOS_HPP_INCLUDED
