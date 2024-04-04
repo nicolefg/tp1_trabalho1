@@ -47,4 +47,11 @@ public:
     void setValor(string);
 };
 
+class Dinheiro : public Dominio {
+private:
+    void validar(string);
+public:
+    void setValor(string);
+};
+
 #endif // DOMINIOS_HPP_INCLUDED
