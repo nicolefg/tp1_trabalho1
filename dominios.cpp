@@ -195,6 +195,49 @@ void Estado::setValor(string valor) {
     this->valor = valor;
 };
 
+void Nome::validar(string valor) {
+    int nomes = 0;
+    int char_nome = 0;
+
+    for (char c : valor) {
+
+        if (c == ' ') {
+            if (char_nome < 3 || char_nome > 10) {
+                throw invalid_argument("Cada palavra deve ter de 3 a 10 caracteres.");
+            }
+            nomes++;
+            char_nome = 0;
+        } 
+
+        else if (isalpha(c)) {
+            if (char_nome == 0) {
+                if (!isupper(c)) {
+                    throw invalid_argument("Cada palavra deve começar com letra maiúscula.");
+                }
+            }
+            char_nome++;
+        }
+
+        else {
+            throw invalid_argument("O nome deve conter apenas letras e espaços.");
+        }
+    }
+
+    if (char_nome < 3 || char_nome > 10) {
+        throw invalid_argument("Cada palavra deve ter de 3 a 10 caracteres.");
+    }
+    nomes++;
+
+    if (nomes < 1 || nomes > 2) {
+        throw invalid_argument("O nome deve conter uma ou duas palavras.");
+    }
+}
+
+void Nome::setValor(string valor) {
+    validar(valor);
+    this->valor = valor;
+};
+
 void Percentual::validar (string valor) {
     if (valor.size() < 0 || valor.size() > 100) {
         throw invalid_argument("Valor inválido.");
