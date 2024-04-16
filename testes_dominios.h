@@ -22,5 +22,17 @@ class TesteDominio {
         int run();
 };
 
+class TesteCodigoPagamento : public TesteDominio {
+    private:
+        CodigoPagamento *codigopagamento;
+        const string VALOR_VALIDO = "12345678";
+        const string VALOR_INVALIDO = "01234567";
+        const string VALOR_INVALIDO = "0123456";
+        void setUp();
+        void testarValorInvalido();
+        void testarValorValido();
+        void tearDown();
+};
+
 
 #endif // TESTES_H_DOM_INCLUDED
