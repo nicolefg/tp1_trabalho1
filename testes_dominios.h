@@ -92,5 +92,17 @@ class TesteEstado : public TesteDominio {
         void tearDown();
 };
 
+class TesteNome : public TesteDominio {
+    private:
+        Nome *nome;
+        const string VALOR_VALIDO = "Nicole Gomes";
+        const string VALOR_INVALIDO = "Fernando Albuquerque";
+        const string VALOR_INVALIDO2 = "Maria clara";
+        void setUp();
+        void testarValorInvalido();
+        void testarValorValido();
+        void tearDown();
+};
+
 
 #endif // TESTES_H_DOM_INCLUDED
