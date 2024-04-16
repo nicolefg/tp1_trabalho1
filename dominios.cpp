@@ -31,7 +31,12 @@ void CodigoTitulo::validar(string valor) {
         throw invalid_argument("Código de título não possui 11 dígitos.");
     };
 
-    for (int i = 0; i < 11; i++) {
+    if (valor.substr(0, 3) != "CDB" && valor.substr(0, 3) != "CRA" && valor.substr(0, 3) != "CRI" && valor.substr(0, 3) != "LCA" && valor.substr(0, 3) != "LCI" && valor.substr(0, 3) != "DEB"){
+        throw invalid_argument("Código de título inválido.");
+    };
+ 
+
+    for (int i = 3; i < 11; i++) {
         char caractere = valor[i];
 
         if (!((caractere >= '0' & caractere <= '9') |
