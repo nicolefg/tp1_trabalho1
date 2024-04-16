@@ -34,5 +34,16 @@ class TesteCodigoPagamento : public TesteDominio {
         void tearDown();
 };
 
+class TesteCodigoTitulo : public TesteDominio {
+    private:
+        CodigoTitulo *codigotitulo;
+        const string VALOR_VALIDO = "CRAAH73T60O";
+        const string VALOR_INVALIDO = "CRE123456AA";
+        void setUp();
+        void testarValorInvalido();
+        void testarValorValido();
+        void tearDown();
+};
+
 
 #endif // TESTES_H_DOM_INCLUDED
