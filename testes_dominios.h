@@ -57,5 +57,17 @@ class TesteCPF : public TesteDominio {
         void tearDown();
 };
 
+class TesteData : public TesteDominio {
+    private:
+        Data *data;
+        const string VALOR_VALIDO = "25/09/2003";
+        const string VALOR_INVALIDO = "31/09/2024";
+        const string VALOR_INVALIDO2 = "31/JAN/2024";
+        void setUp();
+        void testarValorInvalido();
+        void testarValorValido();
+        void tearDown();
+};
+
 
 #endif // TESTES_H_DOM_INCLUDED
