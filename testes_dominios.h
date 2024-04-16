@@ -69,5 +69,17 @@ class TesteData : public TesteDominio {
         void tearDown();
 };
 
+class TesteDinheiro : public TesteDominio {
+    private:
+        Dinheiro *dinheiro;
+        const string VALOR_VALIDO = "563";
+        const string VALOR_INVALIDO = "1000001";
+        const string VALOR_INVALIDO2 = "-1";
+        void setUp();
+        void testarValorInvalido();
+        void testarValorValido();
+        void tearDown();
+};
+
 
 #endif // TESTES_H_DOM_INCLUDED
