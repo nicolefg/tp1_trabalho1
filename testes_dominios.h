@@ -115,5 +115,16 @@ class TestePercentual : public TesteDominio {
         void tearDown();
 };
 
+class TesteSenha : public TesteDominio {
+    private:
+        Senha *senha;
+        const string VALOR_VALIDO = "250936";
+        const string VALOR_INVALIDO = "250903";
+        void setUp();
+        void testarValorInvalido();
+        void testarValorValido();
+        void tearDown();
+};
+
 
 #endif // TESTES_H_DOM_INCLUDED
