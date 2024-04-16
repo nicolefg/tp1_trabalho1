@@ -45,5 +45,17 @@ class TesteCodigoTitulo : public TesteDominio {
         void tearDown();
 };
 
+class TesteCPF : public TesteDominio {
+    private:
+        CPF *cpf;
+        const string VALOR_VALIDO = "082.534.051-97";
+        const string VALOR_INVALIDO = "082.534.051-99";
+        const string VALOR_INVALIDO = "082 534 051 97";
+        void setUp();
+        void testarValorInvalido();
+        void testarValorValido();
+        void tearDown();
+};
+
 
 #endif // TESTES_H_DOM_INCLUDED
