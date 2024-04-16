@@ -81,5 +81,16 @@ class TesteDinheiro : public TesteDominio {
         void tearDown();
 };
 
+class TesteEstado : public TesteDominio {
+    private:
+        Estado *estado;
+        const string VALOR_VALIDO = "Previsto";
+        const string VALOR_INVALIDO = "Solteiro";
+        void setUp();
+        void testarValorInvalido();
+        void testarValorValido();
+        void tearDown();
+};
+
 
 #endif // TESTES_H_DOM_INCLUDED
