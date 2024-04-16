@@ -126,5 +126,16 @@ class TesteSenha : public TesteDominio {
         void tearDown();
 };
 
+class TesteSetor : public TesteDominio {
+    private:
+        Setor *setor;
+        const string VALOR_VALIDO = "Química e petroquímica";
+        const string VALOR_INVALIDO = "Computação";
+        void setUp();
+        void testarValorInvalido();
+        void testarValorValido();
+        void tearDown();
+};
+
 
 #endif // TESTES_H_DOM_INCLUDED
