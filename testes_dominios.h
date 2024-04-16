@@ -104,5 +104,16 @@ class TesteNome : public TesteDominio {
         void tearDown();
 };
 
+class TestePercentual : public TesteDominio {
+    private:
+        Percentual *percentual;
+        const string VALOR_VALIDO = "56";
+        const string VALOR_INVALIDO = "101";
+        void setUp();
+        void testarValorInvalido();
+        void testarValorValido();
+        void tearDown();
+};
+
 
 #endif // TESTES_H_DOM_INCLUDED
