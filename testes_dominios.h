@@ -10,16 +10,16 @@ using namespace std;
 
 class TesteDominio {
     private:                          
-        virtual void setUp();    
-        virtual void tearDown();  
-        virtual void testarCenarioSucesso();
-        virtual void testarCenarioFalha(); 
+        virtual void setUp()= 0;    
+        virtual void tearDown()= 0;  
+        virtual void testarValorValido()= 0;
+        virtual void testarValorInvalido()= 0; 
     protected:
+        string situacao;   
+    public:
         const string SUCESSO =  "Sucesso!";
         const string FALHA = "Erro.";
-        string estado;   
-    public:
-        int run();
+        string run();
 };
 
 class TesteCodigoPagamento : public TesteDominio {
@@ -27,7 +27,7 @@ class TesteCodigoPagamento : public TesteDominio {
         CodigoPagamento *codigopagamento;
         const string VALOR_VALIDO = "12345678";
         const string VALOR_INVALIDO = "01234567";
-        const string VALOR_INVALIDO = "0123456";
+        const string VALOR_INVALIDO2 = "0123456";
         void setUp();
         void testarValorInvalido();
         void testarValorValido();
@@ -50,7 +50,7 @@ class TesteCPF : public TesteDominio {
         CPF *cpf;
         const string VALOR_VALIDO = "082.534.051-97";
         const string VALOR_INVALIDO = "082.534.051-99";
-        const string VALOR_INVALIDO = "082 534 051 97";
+        const string VALOR_INVALIDO2 = "082 534 051 97";
         void setUp();
         void testarValorInvalido();
         void testarValorValido();
@@ -60,9 +60,9 @@ class TesteCPF : public TesteDominio {
 class TesteData : public TesteDominio {
     private:
         Data *data;
-        const string VALOR_VALIDO = "25/09/2003";
-        const string VALOR_INVALIDO = "31/09/2024";
-        const string VALOR_INVALIDO2 = "31/JAN/2024";
+        const string VALOR_VALIDO = "25-09-2003";
+        const string VALOR_INVALIDO = "31-09-2024";
+        const string VALOR_INVALIDO2 = "31-JAN-2024";
         void setUp();
         void testarValorInvalido();
         void testarValorValido();
