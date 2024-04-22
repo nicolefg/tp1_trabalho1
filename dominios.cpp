@@ -303,7 +303,7 @@ void Senha::validar(string valor) {
         throw invalid_argument("Senha não contém 6 caracteres.");
     };
 
-     if (valor[0] == '0') {
+    if (valor[0] == '0') {
         throw invalid_argument("A senha não pode começar com 0.");
     };
 
