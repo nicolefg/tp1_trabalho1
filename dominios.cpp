@@ -8,16 +8,29 @@ void CodigoPagamento::validar(string valor) {
         throw invalid_argument("Código de pagamento não possui 8 números.");
     };
 
-    if (valor[0] == 0) {
+    /*if (valor[0] == 0) {
         throw invalid_argument("Primeiro digito inválido.");
     };
+    for (int i = 0; i < 1; i++) {
+        char caractere = valor[i];
 
-    for (int i = 0; i < 8; i++) {
+        if (caractere != '0') {
+            throw invalid_argument("Primeiro digito inválido.");
+        };
+    };*/
+
+    for (int i = 0; i < valor.size(); i++) {
         char caractere = valor[i];
 
         if (!(caractere >= '0' & caractere <= '9')) {
-            throw invalid_argument("Senha possui caractere inválido.");
+            throw invalid_argument("Código de pagamento possui caractere inválido.");
         };
+    };
+
+    int num1 = stoi(valor.substr(0, 1));
+        
+    if (num1 == 0) {
+        throw invalid_argument("Primeiro dígito inválido.");
     };
 };
 
@@ -31,18 +44,20 @@ void CodigoTitulo::validar(string valor) {
         throw invalid_argument("Código de título não possui 11 dígitos.");
     };
 
-    if (valor.substr(0, 3) != "CDB" && valor.substr(0, 3) != "CRA" && valor.substr(0, 3) != "CRI" && valor.substr(0, 3) != "LCA" && valor.substr(0, 3) != "LCI" && valor.substr(0, 3) != "DEB"){
-        throw invalid_argument("Código de título inválido.");
-    };
- 
-
-    for (int i = 3; i < 11; i++) {
+    for (int i = 0; i < 11; i++) {
         char caractere = valor[i];
 
-        if (!((caractere >= '0' & caractere <= '9') |
-              (caractere >= 'A' & caractere <= 'Z'))) {
+        /*if (!((caractere >= '0' & caractere <= '9') ||
+              (caractere >= 'A' & caractere <= 'Z'))) {*/
+        if (!(isupper(caractere) || isdigit(caractere))) {
             throw invalid_argument("Código de título possui caractere inválido.");
         };
+    };
+
+    string prefixo = (valor.substr(0,3));
+
+    if (prefixo != "CDB" && prefixo != "CRA" && prefixo != "CRI" && prefixo != "LCA" && prefixo != "LCI" && prefixo != "DEB"){
+        throw invalid_argument("Código de título possui prefixo inválido.");
     };
 };
 
@@ -127,9 +142,17 @@ void CPF::setValor(string valor) {
 };
 
 void Data::validar(string valor) {
-    if ((valor.size() != 10) || (valor[2] != '-' | valor[5] != '-')) {
+    if ((valor.size() != 10)) {
+        throw invalid_argument("Formato inválido.");
+    };
+
+    string hifen1 = valor.substr(2,1);
+    string hifen2 = valor.substr(5,1);
+
+    if (hifen1 != "-" && hifen2 != "-"){
         throw invalid_argument("Formato inválido.");
     }
+
     else {
         int dia = stoi(valor.substr(0,2));
         int mes = stoi(valor.substr(3,2));
@@ -171,17 +194,23 @@ void Data::setValor(string valor) {
 };
 
 void Dinheiro::validar (string valor) {
-    if (valor.size() < 0 || valor.size() > 1000000) {
+    /*if (valor.size() < 0 || valor.size() > 1000000) {
+        throw invalid_argument("Valor inválido.");
+    }
+    else {*/
+    int num = stoi(valor.substr(0, valor.size()));
+        
+    if (num < 0 || num > 1000000) {
         throw invalid_argument("Valor inválido.");
     };
 
-    for (int i = 0; i < valor.size(); i++) {
+    /*for (int i = 0; i < valor.size(); i++) {
         char caractere = valor[i];
 
         if (!(caractere >= '0' & caractere <= '9')) {
             throw invalid_argument("Valor possui caractere inválido.");
         };
-    };
+    };*/
 };
 
 void Dinheiro::setValor(string valor) {
@@ -244,7 +273,7 @@ void Nome::setValor(string valor) {
 };
 
 void Percentual::validar (string valor) {
-    if (valor.size() < 0 || valor.size() > 100) {
+    /*if (valor.size() < 0 || valor.size() > 100) {
         throw invalid_argument("Valor inválido.");
     };
 
@@ -254,7 +283,14 @@ void Percentual::validar (string valor) {
         if (!(caractere >= '0' & caractere <= '9')) {
             throw invalid_argument("Valor possui caractere inválido.");
         };
+    };*/
+
+    int num = stoi(valor.substr(0, valor.size()));
+        
+    if (num < 0 || num > 100) {
+        throw invalid_argument("Valor inválido.");
     };
+
 };
 
 void Percentual::setValor(string valor) {
