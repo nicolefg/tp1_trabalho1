@@ -129,7 +129,7 @@ class TesteSenha : public TesteDominio {
 class TesteSetor : public TesteDominio {
     private:
         Setor *setor;
-        const string VALOR_VALIDO = "Química e petroquímica";
+        const string VALOR_VALIDO = "Quimica e petroquimica";
         const string VALOR_INVALIDO = "Computação";
         void setUp();
         void testarValorInvalido();
