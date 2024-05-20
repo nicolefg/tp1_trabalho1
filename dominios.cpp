@@ -8,17 +8,6 @@ void CodigoPagamento::validar(string valor) {
         throw invalid_argument("Código de pagamento não possui 8 números.");
     };
 
-    /*if (valor[0] == 0) {
-        throw invalid_argument("Primeiro digito inválido.");
-    };
-    for (int i = 0; i < 1; i++) {
-        char caractere = valor[i];
-
-        if (caractere != '0') {
-            throw invalid_argument("Primeiro digito inválido.");
-        };
-    };*/
-
     for (int i = 0; i < valor.size(); i++) {
         char caractere = valor[i];
 
@@ -47,8 +36,6 @@ void CodigoTitulo::validar(string valor) {
     for (int i = 0; i < 11; i++) {
         char caractere = valor[i];
 
-        /*if (!((caractere >= '0' & caractere <= '9') ||
-              (caractere >= 'A' & caractere <= 'Z'))) {*/
         if (!(isupper(caractere) || isdigit(caractere))) {
             throw invalid_argument("Código de título possui caractere inválido.");
         };
@@ -71,37 +58,7 @@ void CPF::validar(string valor) {
         throw invalid_argument("Formato inválido.");
     };
     
-    /*for (int i = 0; i < 3; i++) {
-        char caractere = valor[i];
-
-        if (!(caractere >= '0' & caractere <= '9')) {
-            throw invalid_argument("CPF possui caractere inválido.");
-        };
-    };
-
-    for (int i = 4; i < 7; i++) {
-    char caractere = valor[i];
-
-        if (!(caractere >= '0' & caractere <= '9')) {
-            throw invalid_argument("CPF possui caractere inválido.");
-        };
-    };
-
-    for (int i = 8; i < 11; i++) {
-    char caractere = valor[i];
-
-        if (!(caractere >= '0' & caractere <= '9')) {
-            throw invalid_argument("CPF possui caractere inválido.");
-        };
-    };
-
-    for (int i = 12; i < 14; i++) {
-    char caractere = valor[i];
-
-        if (!(caractere >= '0' & caractere <= '9')) {
-            throw invalid_argument("CPF possui caractere inválido.");
-        };
-    }; */
+// OU ou E ???
 
     valor.erase(3, 1);
     valor.erase(6, 1);
@@ -194,24 +151,14 @@ void Data::setValor(string valor) {
 };
 
 void Dinheiro::validar (string valor) {
-    /*if (valor.size() < 0 || valor.size() > 1000000) {
-        throw invalid_argument("Valor inválido.");
-    }
-    else {*/
-    int num = stoi(valor.substr(0, valor.size()));
+    float num = stoi(valor.substr(0, valor.size()));
         
-    if (num < 0 || num > 1000000) {
+    if (num < 0.0 || num > 1000000.0) {
         throw invalid_argument("Valor inválido.");
     };
-
-    /*for (int i = 0; i < valor.size(); i++) {
-        char caractere = valor[i];
-
-        if (!(caractere >= '0' & caractere <= '9')) {
-            throw invalid_argument("Valor possui caractere inválido.");
-        };
-    };*/
 };
+
+//centavos devem estar depois de um ponto
 
 void Dinheiro::setValor(string valor) {
     validar(valor);
@@ -273,18 +220,6 @@ void Nome::setValor(string valor) {
 };
 
 void Percentual::validar (string valor) {
-    /*if (valor.size() < 0 || valor.size() > 100) {
-        throw invalid_argument("Valor inválido.");
-    };
-
-        for (int i = 0; i < valor.size(); i++) {
-        char caractere = valor[i];
-
-        if (!(caractere >= '0' & caractere <= '9')) {
-            throw invalid_argument("Valor possui caractere inválido.");
-        };
-    };*/
-
     int num = stoi(valor.substr(0, valor.size()));
         
     if (num < 0 || num > 100) {
@@ -348,7 +283,7 @@ void Senha::setValor(string valor) {
 };
 
 void Setor::validar(string valor) {
-    if (valor != "Agricultura" && valor != "Construção civil" && valor != "Energia" && valor != "Finanças" && valor != "Imobiliário" && valor != "Papel e celulose" && valor != "Pecuária" && valor != "Química e petroquímica" && valor != "Metalugia e siderurgia" && valor != "Mineração") {
+    if (valor != "Agricultura" && valor != "Construcao civil" && valor != "Energia" && valor != "Financas" && valor != "Imobiliario" && valor != "Papel e celulose" && valor != "Pecuaria" && valor != "Quimica e petroquimica" && valor != "Metalugia e siderurgia" && valor != "Mineracao") {
         throw invalid_argument("Setor inválido.");
     };
 };
