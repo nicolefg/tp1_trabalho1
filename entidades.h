@@ -99,7 +99,7 @@ inline Data Titulo::getEmissao() const {
     return emissao;
 };
 
-inline void Titulo::setVencimento(const Data &vecimento){
+inline void Titulo::setVencimento(const Data &vencimento){
     this->vencimento = vencimento;
 };
 
