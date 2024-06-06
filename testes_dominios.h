@@ -9,13 +9,13 @@ using namespace std;
 #include "entidades.h"
 
 class TesteDominio {
-    private:                          
-        virtual void setUp()= 0;    
-        virtual void tearDown()= 0;  
+    private:
+        virtual void setUp()= 0;
+        virtual void tearDown()= 0;
         virtual void testarValorValido()= 0;
-        virtual void testarValorInvalido()= 0; 
+        virtual void testarValorInvalido()= 0;
     protected:
-        string situacao;   
+        string situacao;
     public:
         const string SUCESSO =  "Sucesso!";
         const string FALHA = "Erro.";
@@ -72,9 +72,9 @@ class TesteData : public TesteDominio {
 class TesteDinheiro : public TesteDominio {
     private:
         Dinheiro *dinheiro;
-        const string VALOR_VALIDO = "563";
-        const string VALOR_INVALIDO = "1000001";
-        const string VALOR_INVALIDO2 = "-1";
+        const string VALOR_VALIDO = "3.563,56";
+        const string VALOR_INVALIDO = "1.000.001,00";
+        const string VALOR_INVALIDO2 = "-1,00";
         void setUp();
         void testarValorInvalido();
         void testarValorValido();
@@ -130,7 +130,7 @@ class TesteSetor : public TesteDominio {
     private:
         Setor *setor;
         const string VALOR_VALIDO = "Quimica e petroquimica";
-        const string VALOR_INVALIDO = "Computação";
+        const string VALOR_INVALIDO = "Computacao";
         void setUp();
         void testarValorInvalido();
         void testarValorValido();

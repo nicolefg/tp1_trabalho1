@@ -3,6 +3,7 @@
 
 #include <string>
 #include <stdexcept>
+#include <algorithm>
 using namespace std;
 
 class Dominio {
