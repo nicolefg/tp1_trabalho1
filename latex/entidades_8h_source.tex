@@ -1,0 +1,188 @@
+\hypertarget{entidades_8h_source}{}\doxysection{entidades.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef ENTIDADES\_HPP\_INCLUDED}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define ENTIDADES\_HPP\_INCLUDED}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include "{}dominios.h"{}}}
+\DoxyCodeLine{5 }
+\DoxyCodeLine{12 \textcolor{keyword}{class }\mbox{\hyperlink{classConta}{Conta}} \{}
+\DoxyCodeLine{13     \textcolor{keyword}{private}:}
+\DoxyCodeLine{14         \mbox{\hyperlink{classCPF}{CPF}} cpf;}
+\DoxyCodeLine{15         \mbox{\hyperlink{classNome}{Nome}} nome;}
+\DoxyCodeLine{16         \mbox{\hyperlink{classSenha}{Senha}} senha;}
+\DoxyCodeLine{17     }
+\DoxyCodeLine{18     \textcolor{keyword}{public}:}
+\DoxyCodeLine{23         \textcolor{keywordtype}{void} \mbox{\hyperlink{classConta_a511fb6342cd16a600c76ade57f034116}{setCPF}}(\textcolor{keyword}{const} \mbox{\hyperlink{classCPF}{CPF}}\&);}
+\DoxyCodeLine{28         \mbox{\hyperlink{classCPF}{CPF}} \mbox{\hyperlink{classConta_aefc5e4802396851fc79cc7f6ab95705f}{getCPF}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{29 }
+\DoxyCodeLine{34         \textcolor{keywordtype}{void} \mbox{\hyperlink{classConta_a9160a8c46fdf894ca6c3fdf98f8faee1}{setNome}}(\textcolor{keyword}{const} \mbox{\hyperlink{classNome}{Nome}}\&);}
+\DoxyCodeLine{39         \mbox{\hyperlink{classNome}{Nome}} \mbox{\hyperlink{classConta_aac660b7dd90148ff41f89f3732f0d52b}{getNome}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{40 }
+\DoxyCodeLine{45         \textcolor{keywordtype}{void} \mbox{\hyperlink{classConta_a16585ba03471ca5fc626332025e558cf}{setSenha}}(\textcolor{keyword}{const} \mbox{\hyperlink{classSenha}{Senha}}\&);}
+\DoxyCodeLine{50         \mbox{\hyperlink{classSenha}{Senha}} \mbox{\hyperlink{classConta_aa36f37646e006dc200f82bc9f384d79b}{getSenha}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{51 }
+\DoxyCodeLine{52 \};}
+\DoxyCodeLine{53 }
+\DoxyCodeLine{54 \textcolor{comment}{// Metodos modificadores e acessores da entidade Conta}}
+\DoxyCodeLine{55 \textcolor{keyword}{inline} \textcolor{keywordtype}{void} \mbox{\hyperlink{classConta_a511fb6342cd16a600c76ade57f034116}{Conta::setCPF}}(\textcolor{keyword}{const} \mbox{\hyperlink{classCPF}{CPF}} \&cpf)\{}
+\DoxyCodeLine{56     this-\/>cpf = cpf;}
+\DoxyCodeLine{57 \};}
+\DoxyCodeLine{58 }
+\DoxyCodeLine{59 \textcolor{keyword}{inline} \mbox{\hyperlink{classCPF}{CPF}} \mbox{\hyperlink{classConta_aefc5e4802396851fc79cc7f6ab95705f}{Conta::getCPF}}()\textcolor{keyword}{ const }\{}
+\DoxyCodeLine{60     \textcolor{keywordflow}{return} cpf;}
+\DoxyCodeLine{61 \};}
+\DoxyCodeLine{62 }
+\DoxyCodeLine{63 \textcolor{keyword}{inline} \textcolor{keywordtype}{void} \mbox{\hyperlink{classConta_a9160a8c46fdf894ca6c3fdf98f8faee1}{Conta::setNome}}(\textcolor{keyword}{const} \mbox{\hyperlink{classNome}{Nome}} \&nome)\{}
+\DoxyCodeLine{64     this-\/>nome = nome;}
+\DoxyCodeLine{65 \};}
+\DoxyCodeLine{66 }
+\DoxyCodeLine{67 \textcolor{keyword}{inline} \mbox{\hyperlink{classNome}{Nome}} \mbox{\hyperlink{classConta_aac660b7dd90148ff41f89f3732f0d52b}{Conta::getNome}}()\textcolor{keyword}{ const }\{}
+\DoxyCodeLine{68     \textcolor{keywordflow}{return} nome;}
+\DoxyCodeLine{69 \};}
+\DoxyCodeLine{70 }
+\DoxyCodeLine{71 \textcolor{keyword}{inline} \textcolor{keywordtype}{void} \mbox{\hyperlink{classConta_a16585ba03471ca5fc626332025e558cf}{Conta::setSenha}}(\textcolor{keyword}{const} \mbox{\hyperlink{classSenha}{Senha}} \&senha)\{}
+\DoxyCodeLine{72     this-\/>senha = senha;}
+\DoxyCodeLine{73 \};}
+\DoxyCodeLine{74 }
+\DoxyCodeLine{75 \textcolor{keyword}{inline} \mbox{\hyperlink{classSenha}{Senha}} \mbox{\hyperlink{classConta_aa36f37646e006dc200f82bc9f384d79b}{Conta::getSenha}}()\textcolor{keyword}{ const }\{}
+\DoxyCodeLine{76     \textcolor{keywordflow}{return} senha;}
+\DoxyCodeLine{77 \};}
+\DoxyCodeLine{78 }
+\DoxyCodeLine{79 \textcolor{comment}{// -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{89 \textcolor{comment}{}\textcolor{keyword}{class }\mbox{\hyperlink{classTitulo}{Titulo}} \{}
+\DoxyCodeLine{90     \textcolor{keyword}{private}:}
+\DoxyCodeLine{91         \mbox{\hyperlink{classCodigoTitulo}{CodigoTitulo}} codigo;}
+\DoxyCodeLine{92         \mbox{\hyperlink{classNome}{Nome}} emissor;}
+\DoxyCodeLine{93         \mbox{\hyperlink{classSetor}{Setor}} setor;}
+\DoxyCodeLine{94         \mbox{\hyperlink{classData}{Data}} emissao;}
+\DoxyCodeLine{95         \mbox{\hyperlink{classData}{Data}} vencimento;}
+\DoxyCodeLine{96         \mbox{\hyperlink{classDinheiro}{Dinheiro}} valor;}
+\DoxyCodeLine{97 }
+\DoxyCodeLine{98     \textcolor{keyword}{public}:}
+\DoxyCodeLine{103         \textcolor{keywordtype}{void} \mbox{\hyperlink{classTitulo_a151600a31622c0adc5fd2b76c763782f}{setCodigo}}(\textcolor{keyword}{const} \mbox{\hyperlink{classCodigoTitulo}{CodigoTitulo}}\&);}
+\DoxyCodeLine{108         \mbox{\hyperlink{classCodigoTitulo}{CodigoTitulo}} \mbox{\hyperlink{classTitulo_a36bb03c15dac38887ec2816552ff3d36}{getCodigo}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{109 }
+\DoxyCodeLine{114         \textcolor{keywordtype}{void} \mbox{\hyperlink{classTitulo_a053a055a4200ec41d8d011ab4099e181}{setEmissor}}(\textcolor{keyword}{const} \mbox{\hyperlink{classNome}{Nome}}\&);}
+\DoxyCodeLine{119         \mbox{\hyperlink{classNome}{Nome}} \mbox{\hyperlink{classTitulo_a4ba5d846b4d76ad8b109454dee840a87}{getEmissor}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{120 }
+\DoxyCodeLine{125         \textcolor{keywordtype}{void} \mbox{\hyperlink{classTitulo_a3b9ce41529e0443b032757d857336db8}{setSetor}}(\textcolor{keyword}{const} \mbox{\hyperlink{classSetor}{Setor}}\&);}
+\DoxyCodeLine{130         \mbox{\hyperlink{classSetor}{Setor}} \mbox{\hyperlink{classTitulo_a717802cd9bba9e048266589657500b90}{getSetor}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{131 }
+\DoxyCodeLine{136         \textcolor{keywordtype}{void} \mbox{\hyperlink{classTitulo_a6b2666990893b55d2538c281f1469e4f}{setEmissao}}(\textcolor{keyword}{const} \mbox{\hyperlink{classData}{Data}}\&);}
+\DoxyCodeLine{141         \mbox{\hyperlink{classData}{Data}} \mbox{\hyperlink{classTitulo_a3e073f07e9189056c0c279dd551f6f9e}{getEmissao}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{142 }
+\DoxyCodeLine{147         \textcolor{keywordtype}{void} \mbox{\hyperlink{classTitulo_aad38578cc41a0ecab4def014d3d06102}{setVencimento}}(\textcolor{keyword}{const} \mbox{\hyperlink{classData}{Data}}\&);}
+\DoxyCodeLine{152         \mbox{\hyperlink{classData}{Data}} \mbox{\hyperlink{classTitulo_aea8866f26a2fc68bf72550fd7326da0e}{getVencimento}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{153 }
+\DoxyCodeLine{158         \textcolor{keywordtype}{void} \mbox{\hyperlink{classTitulo_a42dda2c14902c69394068f3d19a09fbe}{setValor}}(\textcolor{keyword}{const} \mbox{\hyperlink{classDinheiro}{Dinheiro}}\&);}
+\DoxyCodeLine{163         \mbox{\hyperlink{classDinheiro}{Dinheiro}} \mbox{\hyperlink{classTitulo_a42d2b844bd7b25e7eebd28751cb21686}{getValor}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{164 \};}
+\DoxyCodeLine{165 }
+\DoxyCodeLine{166 \textcolor{comment}{// Metodos modificadores e acessores da entidade Titulo}}
+\DoxyCodeLine{167 \textcolor{keyword}{inline} \textcolor{keywordtype}{void} \mbox{\hyperlink{classTitulo_a151600a31622c0adc5fd2b76c763782f}{Titulo::setCodigo}}(\textcolor{keyword}{const} \mbox{\hyperlink{classCodigoTitulo}{CodigoTitulo}} \&codigo)\{}
+\DoxyCodeLine{168     this-\/>codigo = codigo;}
+\DoxyCodeLine{169 \};}
+\DoxyCodeLine{170 }
+\DoxyCodeLine{171 \textcolor{keyword}{inline} \mbox{\hyperlink{classCodigoTitulo}{CodigoTitulo}} \mbox{\hyperlink{classTitulo_a36bb03c15dac38887ec2816552ff3d36}{Titulo::getCodigo}}()\textcolor{keyword}{ const }\{}
+\DoxyCodeLine{172     \textcolor{keywordflow}{return} codigo;}
+\DoxyCodeLine{173 \};}
+\DoxyCodeLine{174 }
+\DoxyCodeLine{175 \textcolor{keyword}{inline} \textcolor{keywordtype}{void} \mbox{\hyperlink{classTitulo_a053a055a4200ec41d8d011ab4099e181}{Titulo::setEmissor}}(\textcolor{keyword}{const} \mbox{\hyperlink{classNome}{Nome}} \&emissor)\{}
+\DoxyCodeLine{176     this-\/>emissor = emissor;}
+\DoxyCodeLine{177 \};}
+\DoxyCodeLine{178 }
+\DoxyCodeLine{179 \textcolor{keyword}{inline} \mbox{\hyperlink{classNome}{Nome}} \mbox{\hyperlink{classTitulo_a4ba5d846b4d76ad8b109454dee840a87}{Titulo::getEmissor}}()\textcolor{keyword}{ const }\{}
+\DoxyCodeLine{180     \textcolor{keywordflow}{return} emissor;}
+\DoxyCodeLine{181 \};}
+\DoxyCodeLine{182 }
+\DoxyCodeLine{183 \textcolor{keyword}{inline} \textcolor{keywordtype}{void} \mbox{\hyperlink{classTitulo_a3b9ce41529e0443b032757d857336db8}{Titulo::setSetor}}(\textcolor{keyword}{const} \mbox{\hyperlink{classSetor}{Setor}} \&setor)\{}
+\DoxyCodeLine{184     this-\/>setor = setor;}
+\DoxyCodeLine{185 \};}
+\DoxyCodeLine{186 }
+\DoxyCodeLine{187 \textcolor{keyword}{inline} \mbox{\hyperlink{classSetor}{Setor}} \mbox{\hyperlink{classTitulo_a717802cd9bba9e048266589657500b90}{Titulo::getSetor}}()\textcolor{keyword}{ const }\{}
+\DoxyCodeLine{188     \textcolor{keywordflow}{return} setor;}
+\DoxyCodeLine{189 \};}
+\DoxyCodeLine{190 }
+\DoxyCodeLine{191 \textcolor{keyword}{inline} \textcolor{keywordtype}{void} \mbox{\hyperlink{classTitulo_a6b2666990893b55d2538c281f1469e4f}{Titulo::setEmissao}}(\textcolor{keyword}{const} \mbox{\hyperlink{classData}{Data}} \&emissao)\{}
+\DoxyCodeLine{192     this-\/>emissao = emissao;}
+\DoxyCodeLine{193 \};}
+\DoxyCodeLine{194 }
+\DoxyCodeLine{195 \textcolor{keyword}{inline} \mbox{\hyperlink{classData}{Data}} \mbox{\hyperlink{classTitulo_a3e073f07e9189056c0c279dd551f6f9e}{Titulo::getEmissao}}()\textcolor{keyword}{ const }\{}
+\DoxyCodeLine{196     \textcolor{keywordflow}{return} emissao;}
+\DoxyCodeLine{197 \};}
+\DoxyCodeLine{198 }
+\DoxyCodeLine{199 \textcolor{keyword}{inline} \textcolor{keywordtype}{void} \mbox{\hyperlink{classTitulo_aad38578cc41a0ecab4def014d3d06102}{Titulo::setVencimento}}(\textcolor{keyword}{const} \mbox{\hyperlink{classData}{Data}} \&vencimento)\{}
+\DoxyCodeLine{200     this-\/>vencimento = vencimento;}
+\DoxyCodeLine{201 \};}
+\DoxyCodeLine{202 }
+\DoxyCodeLine{203 \textcolor{keyword}{inline} \mbox{\hyperlink{classData}{Data}} \mbox{\hyperlink{classTitulo_aea8866f26a2fc68bf72550fd7326da0e}{Titulo::getVencimento}}()\textcolor{keyword}{ const }\{}
+\DoxyCodeLine{204     \textcolor{keywordflow}{return} vencimento;}
+\DoxyCodeLine{205 \};}
+\DoxyCodeLine{206 }
+\DoxyCodeLine{207 \textcolor{keyword}{inline} \textcolor{keywordtype}{void} \mbox{\hyperlink{classTitulo_a42dda2c14902c69394068f3d19a09fbe}{Titulo::setValor}}(\textcolor{keyword}{const} \mbox{\hyperlink{classDinheiro}{Dinheiro}} \&valor)\{}
+\DoxyCodeLine{208     this-\/>valor = valor;}
+\DoxyCodeLine{209 \};}
+\DoxyCodeLine{210 }
+\DoxyCodeLine{211 \textcolor{keyword}{inline} \mbox{\hyperlink{classDinheiro}{Dinheiro}} \mbox{\hyperlink{classTitulo_a42d2b844bd7b25e7eebd28751cb21686}{Titulo::getValor}}()\textcolor{keyword}{ const }\{}
+\DoxyCodeLine{212     \textcolor{keywordflow}{return} valor;}
+\DoxyCodeLine{213 \};}
+\DoxyCodeLine{214 }
+\DoxyCodeLine{215 \textcolor{comment}{// -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{223 \textcolor{comment}{}\textcolor{keyword}{class }\mbox{\hyperlink{classPagamento}{Pagamento}} \{}
+\DoxyCodeLine{224     \textcolor{keyword}{private}: }
+\DoxyCodeLine{225         \mbox{\hyperlink{classCodigoPagamento}{CodigoPagamento}} codigo;}
+\DoxyCodeLine{226         \mbox{\hyperlink{classData}{Data}} data;}
+\DoxyCodeLine{227         \mbox{\hyperlink{classPercentual}{Percentual}} percentual;}
+\DoxyCodeLine{228         \mbox{\hyperlink{classEstado}{Estado}} estado;}
+\DoxyCodeLine{229     \textcolor{keyword}{public}:}
+\DoxyCodeLine{234         \textcolor{keywordtype}{void} \mbox{\hyperlink{classPagamento_a95bc2c4f5b2a566a36181ccac4d90606}{setCodigo}}(\textcolor{keyword}{const} \mbox{\hyperlink{classCodigoPagamento}{CodigoPagamento}}\&);}
+\DoxyCodeLine{239         \mbox{\hyperlink{classCodigoPagamento}{CodigoPagamento}} \mbox{\hyperlink{classPagamento_adfab9a30fec91421cdecff66753e126b}{getCodigo}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{240 }
+\DoxyCodeLine{245         \textcolor{keywordtype}{void} \mbox{\hyperlink{classPagamento_a8757f1e5f0b573a69ffb8e3a03449900}{setData}}(\textcolor{keyword}{const} \mbox{\hyperlink{classData}{Data}}\&);}
+\DoxyCodeLine{250         \mbox{\hyperlink{classData}{Data}} \mbox{\hyperlink{classPagamento_a059c15107191083c79191f9e3d798e38}{getData}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{251 }
+\DoxyCodeLine{256         \textcolor{keywordtype}{void} \mbox{\hyperlink{classPagamento_a1add4a38f0d2538c525c066e1ec16224}{setPercentual}}(\textcolor{keyword}{const} \mbox{\hyperlink{classPercentual}{Percentual}}\&);}
+\DoxyCodeLine{261         \mbox{\hyperlink{classPercentual}{Percentual}} \mbox{\hyperlink{classPagamento_ab8d713bb597b69badd735d03bdd5ed5e}{getPercentual}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{262 }
+\DoxyCodeLine{267         \textcolor{keywordtype}{void} \mbox{\hyperlink{classPagamento_afecf368d52fc4fec694a9e0a3c92be32}{setEstado}}(\textcolor{keyword}{const} \mbox{\hyperlink{classEstado}{Estado}}\&);}
+\DoxyCodeLine{272         \mbox{\hyperlink{classEstado}{Estado}} \mbox{\hyperlink{classPagamento_ac6d963b2619268e67b8f56828d0dbedf}{getEstado}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{273 \};}
+\DoxyCodeLine{274 }
+\DoxyCodeLine{275 \textcolor{comment}{// Metodos modificadores e acessores da entidade Pagamento}}
+\DoxyCodeLine{276 \textcolor{keyword}{inline} \textcolor{keywordtype}{void} \mbox{\hyperlink{classPagamento_a95bc2c4f5b2a566a36181ccac4d90606}{Pagamento::setCodigo}}(\textcolor{keyword}{const} \mbox{\hyperlink{classCodigoPagamento}{CodigoPagamento}} \&codigo)\{}
+\DoxyCodeLine{277     this-\/>codigo = codigo;}
+\DoxyCodeLine{278 \};}
+\DoxyCodeLine{279 }
+\DoxyCodeLine{280 \textcolor{keyword}{inline} \mbox{\hyperlink{classCodigoPagamento}{CodigoPagamento}} \mbox{\hyperlink{classPagamento_adfab9a30fec91421cdecff66753e126b}{Pagamento::getCodigo}}()\textcolor{keyword}{ const }\{}
+\DoxyCodeLine{281     \textcolor{keywordflow}{return} codigo;}
+\DoxyCodeLine{282 \};}
+\DoxyCodeLine{283 }
+\DoxyCodeLine{284 \textcolor{keyword}{inline} \textcolor{keywordtype}{void} \mbox{\hyperlink{classPagamento_a8757f1e5f0b573a69ffb8e3a03449900}{Pagamento::setData}}(\textcolor{keyword}{const} \mbox{\hyperlink{classData}{Data}} \&data)\{}
+\DoxyCodeLine{285     this-\/>data = data;}
+\DoxyCodeLine{286 \};}
+\DoxyCodeLine{287 }
+\DoxyCodeLine{288 \textcolor{keyword}{inline} \mbox{\hyperlink{classData}{Data}} \mbox{\hyperlink{classPagamento_a059c15107191083c79191f9e3d798e38}{Pagamento::getData}}()\textcolor{keyword}{ const }\{}
+\DoxyCodeLine{289     \textcolor{keywordflow}{return} data;}
+\DoxyCodeLine{290 \};}
+\DoxyCodeLine{291 }
+\DoxyCodeLine{292 \textcolor{keyword}{inline} \textcolor{keywordtype}{void} \mbox{\hyperlink{classPagamento_a1add4a38f0d2538c525c066e1ec16224}{Pagamento::setPercentual}}(\textcolor{keyword}{const} \mbox{\hyperlink{classPercentual}{Percentual}} \&percentual)\{}
+\DoxyCodeLine{293     this-\/>percentual = percentual;}
+\DoxyCodeLine{294 \};}
+\DoxyCodeLine{295 }
+\DoxyCodeLine{296 \textcolor{keyword}{inline} \mbox{\hyperlink{classPercentual}{Percentual}} \mbox{\hyperlink{classPagamento_ab8d713bb597b69badd735d03bdd5ed5e}{Pagamento::getPercentual}}()\textcolor{keyword}{ const }\{}
+\DoxyCodeLine{297     \textcolor{keywordflow}{return} percentual;}
+\DoxyCodeLine{298 \};}
+\DoxyCodeLine{299 }
+\DoxyCodeLine{300 \textcolor{keyword}{inline} \textcolor{keywordtype}{void} \mbox{\hyperlink{classPagamento_afecf368d52fc4fec694a9e0a3c92be32}{Pagamento::setEstado}}(\textcolor{keyword}{const} \mbox{\hyperlink{classEstado}{Estado}} \&estado)\{}
+\DoxyCodeLine{301     this-\/>estado = estado;}
+\DoxyCodeLine{302 \};}
+\DoxyCodeLine{303 }
+\DoxyCodeLine{304 \textcolor{keyword}{inline} \mbox{\hyperlink{classEstado}{Estado}} \mbox{\hyperlink{classPagamento_ac6d963b2619268e67b8f56828d0dbedf}{Pagamento::getEstado}}()\textcolor{keyword}{ const }\{}
+\DoxyCodeLine{305     \textcolor{keywordflow}{return} estado;}
+\DoxyCodeLine{306 \};}
+\DoxyCodeLine{307 }
+\DoxyCodeLine{308 }
+\DoxyCodeLine{309 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// ENTIDADES\_HPP\_INCLUDED}}
+
+\end{DoxyCode}

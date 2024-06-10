@@ -1,13 +1,17 @@
 #include "testes_dominios.h"
 
+// Metodo "run" da classe TesteDominio
+// Executa a sequencia de testes: setup, teste de valor inválido, teste de valor válido e teardown
 string TesteDominio::run() {
-    setUp();
-    testarValorInvalido();
-    testarValorValido();
-    tearDown();
-    return situacao;
+    setUp();             // Inicializa o ambiente de teste
+    testarValorInvalido(); // Testa valores invalidos
+    testarValorValido();   // Testa valores validos
+    tearDown();          // Finaliza o ambiente de teste
+    return situacao;     // Retorna a situacao do teste
 };
 
+// --------------
+// Implementacao dos metodos da classe TesteCodigoPagamento
 void TesteCodigoPagamento::setUp() {
     codigopagamento = new CodigoPagamento();
     situacao = SUCESSO;
@@ -51,6 +55,8 @@ void TesteCodigoPagamento::testarValorValido() {
     };
 };
 
+// --------------
+// Implementacao dos metodos da classe TesteCodigoTitulo
 void TesteCodigoTitulo::setUp() {
     codigotitulo = new CodigoTitulo();
     situacao = SUCESSO;
@@ -84,6 +90,8 @@ void TesteCodigoTitulo::testarValorValido() {
     };
 };
 
+// --------------
+// Implementacao dos metodos da classe TesteCPF
 void TesteCPF::setUp() {
     cpf = new CPF();
     situacao = SUCESSO;
@@ -127,6 +135,8 @@ void TesteCPF::testarValorValido() {
     };
 };
 
+// --------------
+// Implementacao dos metodos da classe TesteData
 void TesteData::setUp() {
     data = new Data();
     situacao = SUCESSO;
@@ -170,6 +180,8 @@ void TesteData::testarValorValido() {
     };
 };
 
+// --------------
+// Implementacao dos metodos da classe TesteDinheiro
 void TesteDinheiro::setUp() {
     dinheiro = new Dinheiro();
     situacao = SUCESSO;
@@ -213,6 +225,8 @@ void TesteDinheiro::testarValorValido() {
     };
 };
 
+// --------------
+// Implementacao dos metodos da classe TesteEstado
 void TesteEstado::setUp() {
     estado = new Estado();
     situacao = SUCESSO;
@@ -246,6 +260,8 @@ void TesteEstado::testarValorValido() {
     };
 };
 
+// --------------
+// Implementacao dos metodos da classe TesteNome
 void TesteNome::setUp() {
     nome = new Nome();
     situacao = SUCESSO;
@@ -289,6 +305,8 @@ void TesteNome::testarValorValido() {
     };
 };
 
+// --------------
+// Implementacao dos metodos da classe TestePercentual
 void TestePercentual::setUp() {
     percentual = new Percentual();
     situacao = SUCESSO;
@@ -322,6 +340,8 @@ void TestePercentual::testarValorValido() {
     };
 };
 
+// --------------
+// Implementacao dos metodos da classe TesteSenha
 void TesteSenha::setUp() {
     senha = new Senha();
     situacao = SUCESSO;
@@ -355,6 +375,8 @@ void TesteSenha::testarValorValido() {
     };
 };
 
+// --------------
+// Implementacao dos metodos da classe TesteSetor
 void TesteSetor::setUp() {
     setor = new Setor();
     situacao = SUCESSO;

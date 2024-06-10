@@ -1,0 +1,65 @@
+\hypertarget{classCPF}{}\doxysection{CPF Class Reference}
+\label{classCPF}\index{CPF@{CPF}}
+
+
+Classe \mbox{\hyperlink{classCPF}{CPF}} representando uma string que deve possuir as seguintes regras de formatacao\+:  
+
+
+
+
+{\ttfamily \#include $<$dominios.\+h$>$}
+
+
+
+Inheritance diagram for CPF\+:
+% FIG 0
+
+
+Collaboration diagram for CPF\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classCPF_a8480f4fd84e3ecfbdda27b4a2678900f}{set\+Valor}} (string)
+\begin{DoxyCompactList}\small\item\em Metodo para definir o valor do \mbox{\hyperlink{classCPF}{CPF}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Classe \mbox{\hyperlink{classCPF}{CPF}} representando uma string que deve possuir as seguintes regras de formatacao\+: 
+
+
+\begin{DoxyItemize}
+\item Formato XXX.\+XXX.\+XXX-\/CC;
+\item X como digito (0-\/9);
+\item Pontos usados para separar sequencias de tres digitos;
+\item Hifen usado para separar sequencias de digitos de caracteres de validacao;
+\item CC como caracteres de validacao calculados segundo algoritmo de validacao de \mbox{\hyperlink{classCPF}{CPF}}. 
+\end{DoxyItemize}
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classCPF_a8480f4fd84e3ecfbdda27b4a2678900f}\label{classCPF_a8480f4fd84e3ecfbdda27b4a2678900f}} 
+\index{CPF@{CPF}!setValor@{setValor}}
+\index{setValor@{setValor}!CPF@{CPF}}
+\doxysubsubsection{\texorpdfstring{setValor()}{setValor()}}
+{\footnotesize\ttfamily void CPF\+::set\+Valor (\begin{DoxyParamCaption}\item[{string}]{valor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Metodo para definir o valor do \mbox{\hyperlink{classCPF}{CPF}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & com o valor a ser definido \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{classDominio_af08629d4e2fa6c63723a30cddc350ff2}{Dominio}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+dominios.\+h\item 
+dominios.\+cpp\end{DoxyCompactItemize}

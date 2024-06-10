@@ -1,0 +1,156 @@
+\hypertarget{testes__dominios_8h_source}{}\doxysection{testes\+\_\+dominios.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef TESTES\_H\_DOM\_INCLUDED}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define TESTES\_H\_DOM\_INCLUDED}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <stdexcept>}}
+\DoxyCodeLine{6 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include "{}dominios.h"{}}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include "{}entidades.h"{}}}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{15 \textcolor{keyword}{class }\mbox{\hyperlink{classTesteDominio}{TesteDominio}} \{}
+\DoxyCodeLine{16     \textcolor{keyword}{private}:}
+\DoxyCodeLine{17         \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} setUp()= 0;                  \textcolor{comment}{// Metodo para criar unidade em teste}}
+\DoxyCodeLine{18         \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} tearDown()= 0;               \textcolor{comment}{// Metodo para destruir unidade em teste}}
+\DoxyCodeLine{19         \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} testarValorValido()= 0;      \textcolor{comment}{// Cenario de teste sucesso}}
+\DoxyCodeLine{20         \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} testarValorInvalido()= 0;    \textcolor{comment}{// Cenario de teste falha}}
+\DoxyCodeLine{21     \textcolor{keyword}{protected}:}
+\DoxyCodeLine{25         \textcolor{keywordtype}{string} \mbox{\hyperlink{classTesteDominio_a1b160357dc2e856dd891adec710ce96c}{situacao}};}
+\DoxyCodeLine{26     \textcolor{keyword}{public}:}
+\DoxyCodeLine{30         \textcolor{keyword}{const} \textcolor{keywordtype}{string} \mbox{\hyperlink{classTesteDominio_ade9a6eb38e1fc988dc39c06f124d2ab7}{SUCESSO}} =  \textcolor{stringliteral}{"{}Sucesso!"{}};}
+\DoxyCodeLine{34         \textcolor{keyword}{const} \textcolor{keywordtype}{string} \mbox{\hyperlink{classTesteDominio_a3a946e9969bed41204431b0e61e6b318}{FALHA}} = \textcolor{stringliteral}{"{}Erro."{}};}
+\DoxyCodeLine{39         \textcolor{keywordtype}{string} \mbox{\hyperlink{classTesteDominio_aa87157d5164cbc56feec2bbd50824d0b}{run}}();}
+\DoxyCodeLine{40 \};}
+\DoxyCodeLine{41 }
+\DoxyCodeLine{42 \textcolor{comment}{// -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{46 \textcolor{comment}{}\textcolor{keyword}{class }\mbox{\hyperlink{classTesteCodigoPagamento}{TesteCodigoPagamento}} : \textcolor{keyword}{public} \mbox{\hyperlink{classTesteDominio}{TesteDominio}} \{}
+\DoxyCodeLine{47     \textcolor{keyword}{private}:}
+\DoxyCodeLine{48         \mbox{\hyperlink{classCodigoPagamento}{CodigoPagamento}} *codigopagamento;}
+\DoxyCodeLine{49         \textcolor{keyword}{const} \textcolor{keywordtype}{string} VALOR\_VALIDO = \textcolor{stringliteral}{"{}12345678"{}};}
+\DoxyCodeLine{50         \textcolor{keyword}{const} \textcolor{keywordtype}{string} VALOR\_INVALIDO = \textcolor{stringliteral}{"{}01234567"{}};}
+\DoxyCodeLine{51         \textcolor{keyword}{const} \textcolor{keywordtype}{string} VALOR\_INVALIDO2 = \textcolor{stringliteral}{"{}0123456"{}};}
+\DoxyCodeLine{52         \textcolor{keywordtype}{void} setUp();}
+\DoxyCodeLine{53         \textcolor{keywordtype}{void} testarValorInvalido();}
+\DoxyCodeLine{54         \textcolor{keywordtype}{void} testarValorValido();}
+\DoxyCodeLine{55         \textcolor{keywordtype}{void} tearDown();}
+\DoxyCodeLine{56 \};}
+\DoxyCodeLine{57 }
+\DoxyCodeLine{58 \textcolor{comment}{// -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{62 \textcolor{comment}{}\textcolor{keyword}{class }\mbox{\hyperlink{classTesteCodigoTitulo}{TesteCodigoTitulo}} : \textcolor{keyword}{public} \mbox{\hyperlink{classTesteDominio}{TesteDominio}} \{}
+\DoxyCodeLine{63     \textcolor{keyword}{private}:}
+\DoxyCodeLine{64         \mbox{\hyperlink{classCodigoTitulo}{CodigoTitulo}} *codigotitulo;}
+\DoxyCodeLine{65         \textcolor{keyword}{const} \textcolor{keywordtype}{string} VALOR\_VALIDO = \textcolor{stringliteral}{"{}CRAAH73T60O"{}};}
+\DoxyCodeLine{66         \textcolor{keyword}{const} \textcolor{keywordtype}{string} VALOR\_INVALIDO = \textcolor{stringliteral}{"{}CRE123456AA"{}};}
+\DoxyCodeLine{67         \textcolor{keywordtype}{void} setUp();}
+\DoxyCodeLine{68         \textcolor{keywordtype}{void} testarValorInvalido();}
+\DoxyCodeLine{69         \textcolor{keywordtype}{void} testarValorValido();}
+\DoxyCodeLine{70         \textcolor{keywordtype}{void} tearDown();}
+\DoxyCodeLine{71 \};}
+\DoxyCodeLine{72 }
+\DoxyCodeLine{73 \textcolor{comment}{// -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{77 \textcolor{comment}{}\textcolor{keyword}{class }\mbox{\hyperlink{classTesteCPF}{TesteCPF}} : \textcolor{keyword}{public} \mbox{\hyperlink{classTesteDominio}{TesteDominio}} \{}
+\DoxyCodeLine{78     \textcolor{keyword}{private}:}
+\DoxyCodeLine{79         \mbox{\hyperlink{classCPF}{CPF}} *cpf;}
+\DoxyCodeLine{80         \textcolor{keyword}{const} \textcolor{keywordtype}{string} VALOR\_VALIDO = \textcolor{stringliteral}{"{}082.534.051-\/97"{}};}
+\DoxyCodeLine{81         \textcolor{keyword}{const} \textcolor{keywordtype}{string} VALOR\_INVALIDO = \textcolor{stringliteral}{"{}082.534.051-\/99"{}};}
+\DoxyCodeLine{82         \textcolor{keyword}{const} \textcolor{keywordtype}{string} VALOR\_INVALIDO2 = \textcolor{stringliteral}{"{}082 534 051 97"{}};}
+\DoxyCodeLine{83         \textcolor{keywordtype}{void} setUp();}
+\DoxyCodeLine{84         \textcolor{keywordtype}{void} testarValorInvalido();}
+\DoxyCodeLine{85         \textcolor{keywordtype}{void} testarValorValido();}
+\DoxyCodeLine{86         \textcolor{keywordtype}{void} tearDown();}
+\DoxyCodeLine{87 \};}
+\DoxyCodeLine{88 }
+\DoxyCodeLine{89 \textcolor{comment}{// -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{93 \textcolor{comment}{}\textcolor{keyword}{class }\mbox{\hyperlink{classTesteData}{TesteData}} : \textcolor{keyword}{public} \mbox{\hyperlink{classTesteDominio}{TesteDominio}} \{}
+\DoxyCodeLine{94     \textcolor{keyword}{private}:}
+\DoxyCodeLine{95         \mbox{\hyperlink{classData}{Data}} *data;}
+\DoxyCodeLine{96         \textcolor{keyword}{const} \textcolor{keywordtype}{string} VALOR\_VALIDO = \textcolor{stringliteral}{"{}25-\/09-\/2003"{}};}
+\DoxyCodeLine{97         \textcolor{keyword}{const} \textcolor{keywordtype}{string} VALOR\_INVALIDO = \textcolor{stringliteral}{"{}31-\/09-\/2024"{}};}
+\DoxyCodeLine{98         \textcolor{keyword}{const} \textcolor{keywordtype}{string} VALOR\_INVALIDO2 = \textcolor{stringliteral}{"{}31-\/JAN-\/2024"{}};}
+\DoxyCodeLine{99         \textcolor{keywordtype}{void} setUp();}
+\DoxyCodeLine{100         \textcolor{keywordtype}{void} testarValorInvalido();}
+\DoxyCodeLine{101         \textcolor{keywordtype}{void} testarValorValido();}
+\DoxyCodeLine{102         \textcolor{keywordtype}{void} tearDown();}
+\DoxyCodeLine{103 \};}
+\DoxyCodeLine{104 }
+\DoxyCodeLine{105 \textcolor{comment}{// -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{109 \textcolor{comment}{}\textcolor{keyword}{class }\mbox{\hyperlink{classTesteDinheiro}{TesteDinheiro}} : \textcolor{keyword}{public} \mbox{\hyperlink{classTesteDominio}{TesteDominio}} \{}
+\DoxyCodeLine{110     \textcolor{keyword}{private}:}
+\DoxyCodeLine{111         \mbox{\hyperlink{classDinheiro}{Dinheiro}} *dinheiro;}
+\DoxyCodeLine{112         \textcolor{keyword}{const} \textcolor{keywordtype}{string} VALOR\_VALIDO = \textcolor{stringliteral}{"{}3.563,56"{}};}
+\DoxyCodeLine{113         \textcolor{keyword}{const} \textcolor{keywordtype}{string} VALOR\_INVALIDO = \textcolor{stringliteral}{"{}1.000.001,00"{}};}
+\DoxyCodeLine{114         \textcolor{keyword}{const} \textcolor{keywordtype}{string} VALOR\_INVALIDO2 = \textcolor{stringliteral}{"{}-\/1,00"{}};}
+\DoxyCodeLine{115         \textcolor{keywordtype}{void} setUp();}
+\DoxyCodeLine{116         \textcolor{keywordtype}{void} testarValorInvalido();}
+\DoxyCodeLine{117         \textcolor{keywordtype}{void} testarValorValido();}
+\DoxyCodeLine{118         \textcolor{keywordtype}{void} tearDown();}
+\DoxyCodeLine{119 \};}
+\DoxyCodeLine{120 }
+\DoxyCodeLine{121 \textcolor{comment}{// -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{125 \textcolor{comment}{}\textcolor{keyword}{class }\mbox{\hyperlink{classTesteEstado}{TesteEstado}} : \textcolor{keyword}{public} \mbox{\hyperlink{classTesteDominio}{TesteDominio}} \{}
+\DoxyCodeLine{126     \textcolor{keyword}{private}:}
+\DoxyCodeLine{127         \mbox{\hyperlink{classEstado}{Estado}} *estado;}
+\DoxyCodeLine{128         \textcolor{keyword}{const} \textcolor{keywordtype}{string} VALOR\_VALIDO = \textcolor{stringliteral}{"{}Previsto"{}};}
+\DoxyCodeLine{129         \textcolor{keyword}{const} \textcolor{keywordtype}{string} VALOR\_INVALIDO = \textcolor{stringliteral}{"{}Solteiro"{}};}
+\DoxyCodeLine{130         \textcolor{keywordtype}{void} setUp();}
+\DoxyCodeLine{131         \textcolor{keywordtype}{void} testarValorInvalido();}
+\DoxyCodeLine{132         \textcolor{keywordtype}{void} testarValorValido();}
+\DoxyCodeLine{133         \textcolor{keywordtype}{void} tearDown();}
+\DoxyCodeLine{134 \};}
+\DoxyCodeLine{135 }
+\DoxyCodeLine{136 \textcolor{comment}{// -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{140 \textcolor{comment}{}\textcolor{keyword}{class }\mbox{\hyperlink{classTesteNome}{TesteNome}} : \textcolor{keyword}{public} \mbox{\hyperlink{classTesteDominio}{TesteDominio}} \{}
+\DoxyCodeLine{141     \textcolor{keyword}{private}:}
+\DoxyCodeLine{142         \mbox{\hyperlink{classNome}{Nome}} *nome;}
+\DoxyCodeLine{143         \textcolor{keyword}{const} \textcolor{keywordtype}{string} VALOR\_VALIDO = \textcolor{stringliteral}{"{}Nicole Gomes"{}};}
+\DoxyCodeLine{144         \textcolor{keyword}{const} \textcolor{keywordtype}{string} VALOR\_INVALIDO = \textcolor{stringliteral}{"{}Fernando Albuquerque"{}};}
+\DoxyCodeLine{145         \textcolor{keyword}{const} \textcolor{keywordtype}{string} VALOR\_INVALIDO2 = \textcolor{stringliteral}{"{}Maria clara"{}};}
+\DoxyCodeLine{146         \textcolor{keywordtype}{void} setUp();}
+\DoxyCodeLine{147         \textcolor{keywordtype}{void} testarValorInvalido();}
+\DoxyCodeLine{148         \textcolor{keywordtype}{void} testarValorValido();}
+\DoxyCodeLine{149         \textcolor{keywordtype}{void} tearDown();}
+\DoxyCodeLine{150 \};}
+\DoxyCodeLine{151 }
+\DoxyCodeLine{152 \textcolor{comment}{// -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{156 \textcolor{comment}{}\textcolor{keyword}{class }\mbox{\hyperlink{classTestePercentual}{TestePercentual}} : \textcolor{keyword}{public} \mbox{\hyperlink{classTesteDominio}{TesteDominio}} \{}
+\DoxyCodeLine{157     \textcolor{keyword}{private}:}
+\DoxyCodeLine{158         \mbox{\hyperlink{classPercentual}{Percentual}} *percentual;}
+\DoxyCodeLine{159         \textcolor{keyword}{const} \textcolor{keywordtype}{string} VALOR\_VALIDO = \textcolor{stringliteral}{"{}56"{}};}
+\DoxyCodeLine{160         \textcolor{keyword}{const} \textcolor{keywordtype}{string} VALOR\_INVALIDO = \textcolor{stringliteral}{"{}101"{}};}
+\DoxyCodeLine{161         \textcolor{keywordtype}{void} setUp();}
+\DoxyCodeLine{162         \textcolor{keywordtype}{void} testarValorInvalido();}
+\DoxyCodeLine{163         \textcolor{keywordtype}{void} testarValorValido();}
+\DoxyCodeLine{164         \textcolor{keywordtype}{void} tearDown();}
+\DoxyCodeLine{165 \};}
+\DoxyCodeLine{166 }
+\DoxyCodeLine{167 \textcolor{comment}{// -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{171 \textcolor{comment}{}\textcolor{keyword}{class }\mbox{\hyperlink{classTesteSenha}{TesteSenha}} : \textcolor{keyword}{public} \mbox{\hyperlink{classTesteDominio}{TesteDominio}} \{}
+\DoxyCodeLine{172     \textcolor{keyword}{private}:}
+\DoxyCodeLine{173         \mbox{\hyperlink{classSenha}{Senha}} *senha;}
+\DoxyCodeLine{174         \textcolor{keyword}{const} \textcolor{keywordtype}{string} VALOR\_VALIDO = \textcolor{stringliteral}{"{}250936"{}};}
+\DoxyCodeLine{175         \textcolor{keyword}{const} \textcolor{keywordtype}{string} VALOR\_INVALIDO = \textcolor{stringliteral}{"{}250903"{}};}
+\DoxyCodeLine{176         \textcolor{keywordtype}{void} setUp();}
+\DoxyCodeLine{177         \textcolor{keywordtype}{void} testarValorInvalido();}
+\DoxyCodeLine{178         \textcolor{keywordtype}{void} testarValorValido();}
+\DoxyCodeLine{179         \textcolor{keywordtype}{void} tearDown();}
+\DoxyCodeLine{180 \};}
+\DoxyCodeLine{181 }
+\DoxyCodeLine{182 \textcolor{comment}{// -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{186 \textcolor{comment}{}\textcolor{keyword}{class }\mbox{\hyperlink{classTesteSetor}{TesteSetor}} : \textcolor{keyword}{public} \mbox{\hyperlink{classTesteDominio}{TesteDominio}} \{}
+\DoxyCodeLine{187     \textcolor{keyword}{private}:}
+\DoxyCodeLine{188         \mbox{\hyperlink{classSetor}{Setor}} *setor;}
+\DoxyCodeLine{189         \textcolor{keyword}{const} \textcolor{keywordtype}{string} VALOR\_VALIDO = \textcolor{stringliteral}{"{}Quimica e petroquimica"{}};}
+\DoxyCodeLine{190         \textcolor{keyword}{const} \textcolor{keywordtype}{string} VALOR\_INVALIDO = \textcolor{stringliteral}{"{}Computacao"{}};}
+\DoxyCodeLine{191         \textcolor{keywordtype}{void} setUp();}
+\DoxyCodeLine{192         \textcolor{keywordtype}{void} testarValorInvalido();}
+\DoxyCodeLine{193         \textcolor{keywordtype}{void} testarValorValido();}
+\DoxyCodeLine{194         \textcolor{keywordtype}{void} tearDown();}
+\DoxyCodeLine{195 \};}
+\DoxyCodeLine{196 }
+\DoxyCodeLine{197 }
+\DoxyCodeLine{198 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// TESTES\_H\_DOM\_INCLUDED}}
+
+\end{DoxyCode}

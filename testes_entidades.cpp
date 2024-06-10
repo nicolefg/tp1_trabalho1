@@ -1,12 +1,17 @@
 #include "testes_entidades.h"
 
+// Implementacoes do metodo "run" da classe TesteEntidade
+// Executa a sequencia de testes: setup, teste de cenario de sucesso e teardown
 string TesteEntidade::run(){
-    setUp();
-    testarCenarioSucesso();
-    tearDown();
-    return situacao;
+    setUp();             // Inicializa o ambiente de teste
+    testarCenarioSucesso(); //Testa cenario de sucesso
+    tearDown();          // Finaliza o ambiente de teste
+    return situacao;     // Retorna a situacao do teste
 };
 
+
+// --------------
+// Implementacao dos metodos da classe TesteConta
 void TesteConta::setUp(){
     conta = new Conta();
     situacao = SUCESSO;
@@ -35,6 +40,9 @@ void TesteConta::testarCenarioSucesso(){
         situacao = FALHA;
 };
 
+
+// --------------
+// Implementacao dos metodos da classe TesteTitulo
 void TesteTitulo::setUp(){
     titulo = new Titulo();
     situacao = SUCESSO;
@@ -81,6 +89,9 @@ void TesteTitulo::testarCenarioSucesso(){
         situacao = FALHA;
 };
 
+
+// --------------
+// Implementacao dos metodos da classe TestePagamento
 void TestePagamento::setUp(){
     pagamento = new Pagamento();
     situacao = SUCESSO;

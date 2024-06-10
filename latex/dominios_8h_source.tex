@@ -1,0 +1,109 @@
+\hypertarget{dominios_8h_source}{}\doxysection{dominios.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef DOMINIOS\_H\_INCLUDED}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define DOMINIOS\_H\_INCLUDED}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <stdexcept>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <algorithm>}}
+\DoxyCodeLine{7 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 }
+\DoxyCodeLine{13 \textcolor{keyword}{class }\mbox{\hyperlink{classDominio}{Dominio}} \{}
+\DoxyCodeLine{14 \textcolor{keyword}{private}:}
+\DoxyCodeLine{15     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} validar(\textcolor{keywordtype}{string}) = 0;}
+\DoxyCodeLine{16 \textcolor{keyword}{protected}:}
+\DoxyCodeLine{20     \textcolor{keywordtype}{string} \mbox{\hyperlink{classDominio_adf6b3cc90ca5abce6cd462cdb313220e}{valor}};}
+\DoxyCodeLine{21 \textcolor{keyword}{public}:}
+\DoxyCodeLine{26     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} \mbox{\hyperlink{classDominio_af08629d4e2fa6c63723a30cddc350ff2}{setValor}}(\textcolor{keywordtype}{string}) = 0;}
+\DoxyCodeLine{31     \textcolor{keywordtype}{string} \mbox{\hyperlink{classDominio_adc86858ec8f9d7d91a0d8498f3614864}{getValor}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{32 \};}
+\DoxyCodeLine{33 }
+\DoxyCodeLine{34 \textcolor{keyword}{inline} \textcolor{keywordtype}{string} \mbox{\hyperlink{classDominio_adc86858ec8f9d7d91a0d8498f3614864}{Dominio::getValor}}()\textcolor{keyword}{ const }\{}
+\DoxyCodeLine{35     \textcolor{keywordflow}{return} \mbox{\hyperlink{classDominio_adf6b3cc90ca5abce6cd462cdb313220e}{valor}};}
+\DoxyCodeLine{36 \};}
+\DoxyCodeLine{37 }
+\DoxyCodeLine{38 \textcolor{comment}{// -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{45 \textcolor{comment}{}\textcolor{keyword}{class }\mbox{\hyperlink{classCodigoPagamento}{CodigoPagamento}} : \textcolor{keyword}{public} \mbox{\hyperlink{classDominio}{Dominio}} \{}
+\DoxyCodeLine{46 \textcolor{keyword}{private}:}
+\DoxyCodeLine{47     \textcolor{keywordtype}{void} validar(\textcolor{keywordtype}{string});}
+\DoxyCodeLine{48 \textcolor{keyword}{public}:}
+\DoxyCodeLine{53     \textcolor{keywordtype}{void} \mbox{\hyperlink{classCodigoPagamento_ad2fb9b28d4f4fa93120f1182e56fa738}{setValor}}(\textcolor{keywordtype}{string});}
+\DoxyCodeLine{54 \};}
+\DoxyCodeLine{55 }
+\DoxyCodeLine{56 \textcolor{comment}{// -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{62 \textcolor{comment}{}\textcolor{keyword}{class }\mbox{\hyperlink{classCodigoTitulo}{CodigoTitulo}} : \textcolor{keyword}{public} \mbox{\hyperlink{classDominio}{Dominio}} \{}
+\DoxyCodeLine{63 \textcolor{keyword}{private}:}
+\DoxyCodeLine{64     \textcolor{keywordtype}{void} validar(\textcolor{keywordtype}{string});}
+\DoxyCodeLine{65 \textcolor{keyword}{public}:}
+\DoxyCodeLine{70     \textcolor{keywordtype}{void} \mbox{\hyperlink{classCodigoTitulo_a92e8c6eff71d5a6c21f62ccef1d25d8b}{setValor}}(\textcolor{keywordtype}{string});}
+\DoxyCodeLine{71 \};}
+\DoxyCodeLine{72 }
+\DoxyCodeLine{73 \textcolor{comment}{// -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{82 \textcolor{comment}{}\textcolor{keyword}{class }\mbox{\hyperlink{classCPF}{CPF}} : \textcolor{keyword}{public} \mbox{\hyperlink{classDominio}{Dominio}} \{}
+\DoxyCodeLine{83 \textcolor{keyword}{private}:}
+\DoxyCodeLine{84     \textcolor{keywordtype}{void} validar(\textcolor{keywordtype}{string});}
+\DoxyCodeLine{85 \textcolor{keyword}{public}:}
+\DoxyCodeLine{90     \textcolor{keywordtype}{void} \mbox{\hyperlink{classCPF_a8480f4fd84e3ecfbdda27b4a2678900f}{setValor}}(\textcolor{keywordtype}{string});}
+\DoxyCodeLine{91 \};}
+\DoxyCodeLine{92 }
+\DoxyCodeLine{93 \textcolor{comment}{// -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{103 \textcolor{comment}{}\textcolor{keyword}{class }\mbox{\hyperlink{classData}{Data}} : \textcolor{keyword}{public} \mbox{\hyperlink{classDominio}{Dominio}} \{}
+\DoxyCodeLine{104 \textcolor{keyword}{private}:}
+\DoxyCodeLine{105     \textcolor{keywordtype}{void} validar(\textcolor{keywordtype}{string});}
+\DoxyCodeLine{106 \textcolor{keyword}{public}:}
+\DoxyCodeLine{111     \textcolor{keywordtype}{void} \mbox{\hyperlink{classData_aee3a6598533a28a3f446c5f8ecb63c0f}{setValor}}(\textcolor{keywordtype}{string});}
+\DoxyCodeLine{112 \};}
+\DoxyCodeLine{113 }
+\DoxyCodeLine{114 \textcolor{comment}{// -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{121 \textcolor{comment}{}\textcolor{keyword}{class }\mbox{\hyperlink{classDinheiro}{Dinheiro}} : \textcolor{keyword}{public} \mbox{\hyperlink{classDominio}{Dominio}} \{}
+\DoxyCodeLine{122 \textcolor{keyword}{private}:}
+\DoxyCodeLine{123     \textcolor{keywordtype}{void} validar(\textcolor{keywordtype}{string});}
+\DoxyCodeLine{124 \textcolor{keyword}{public}:}
+\DoxyCodeLine{129     \textcolor{keywordtype}{void} \mbox{\hyperlink{classDinheiro_a426d8d9576e3f0d9784964b2f18a1d7c}{setValor}}(\textcolor{keywordtype}{string});}
+\DoxyCodeLine{130 \};}
+\DoxyCodeLine{131 }
+\DoxyCodeLine{132 \textcolor{comment}{// -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{137 \textcolor{comment}{}\textcolor{keyword}{class }\mbox{\hyperlink{classEstado}{Estado}} : \textcolor{keyword}{public} \mbox{\hyperlink{classDominio}{Dominio}} \{}
+\DoxyCodeLine{138 \textcolor{keyword}{private}:}
+\DoxyCodeLine{139     \textcolor{keywordtype}{void} validar(\textcolor{keywordtype}{string});}
+\DoxyCodeLine{140 \textcolor{keyword}{public}:}
+\DoxyCodeLine{145     \textcolor{keywordtype}{void} \mbox{\hyperlink{classEstado_ac56be1cfea161e20258f42e206359250}{setValor}}(\textcolor{keywordtype}{string});}
+\DoxyCodeLine{146 \};}
+\DoxyCodeLine{147 }
+\DoxyCodeLine{148 \textcolor{comment}{// -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{157 \textcolor{comment}{}\textcolor{keyword}{class }\mbox{\hyperlink{classNome}{Nome}} : \textcolor{keyword}{public} \mbox{\hyperlink{classDominio}{Dominio}} \{}
+\DoxyCodeLine{158 \textcolor{keyword}{private}:}
+\DoxyCodeLine{159     \textcolor{keywordtype}{void} validar(\textcolor{keywordtype}{string});}
+\DoxyCodeLine{160 \textcolor{keyword}{public}:}
+\DoxyCodeLine{165     \textcolor{keywordtype}{void} \mbox{\hyperlink{classNome_aaad6a1ad8718cce8dde090a435c3cd81}{setValor}}(\textcolor{keywordtype}{string});}
+\DoxyCodeLine{166 \};}
+\DoxyCodeLine{167 }
+\DoxyCodeLine{168 \textcolor{comment}{// -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{173 \textcolor{comment}{}\textcolor{keyword}{class }\mbox{\hyperlink{classPercentual}{Percentual}} : \textcolor{keyword}{public} \mbox{\hyperlink{classDominio}{Dominio}} \{}
+\DoxyCodeLine{174 \textcolor{keyword}{private}:}
+\DoxyCodeLine{175     \textcolor{keywordtype}{void} validar(\textcolor{keywordtype}{string});}
+\DoxyCodeLine{176 \textcolor{keyword}{public}:}
+\DoxyCodeLine{181     \textcolor{keywordtype}{void} \mbox{\hyperlink{classPercentual_afc74053deffe4f4b273969f685f308c7}{setValor}}(\textcolor{keywordtype}{string});}
+\DoxyCodeLine{182 \};}
+\DoxyCodeLine{183 }
+\DoxyCodeLine{184 \textcolor{comment}{// -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{193 \textcolor{comment}{}\textcolor{keyword}{class }\mbox{\hyperlink{classSenha}{Senha}} : \textcolor{keyword}{public} \mbox{\hyperlink{classDominio}{Dominio}} \{}
+\DoxyCodeLine{194 \textcolor{keyword}{private}:}
+\DoxyCodeLine{195     \textcolor{keywordtype}{void} validar(\textcolor{keywordtype}{string});}
+\DoxyCodeLine{196 \textcolor{keyword}{public}:}
+\DoxyCodeLine{201     \textcolor{keywordtype}{void} \mbox{\hyperlink{classSenha_a379d90c214392ccb42aaf49e3d39e112}{setValor}}(\textcolor{keywordtype}{string});}
+\DoxyCodeLine{202 \};}
+\DoxyCodeLine{203 }
+\DoxyCodeLine{204 \textcolor{comment}{// -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{210 \textcolor{comment}{}\textcolor{keyword}{class }\mbox{\hyperlink{classSetor}{Setor}} : \textcolor{keyword}{public} \mbox{\hyperlink{classDominio}{Dominio}} \{}
+\DoxyCodeLine{211 \textcolor{keyword}{private}:}
+\DoxyCodeLine{212     \textcolor{keywordtype}{void} validar(\textcolor{keywordtype}{string});}
+\DoxyCodeLine{213 \textcolor{keyword}{public}:}
+\DoxyCodeLine{218     \textcolor{keywordtype}{void} \mbox{\hyperlink{classSetor_ae7b9c1b5f54cdd649852a4c848190fae}{setValor}}(\textcolor{keywordtype}{string});}
+\DoxyCodeLine{219 \};}
+\DoxyCodeLine{220 }
+\DoxyCodeLine{221 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// DOMINIOS\_HPP\_INCLUDED}}
+
+\end{DoxyCode}

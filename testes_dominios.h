@@ -8,20 +8,41 @@ using namespace std;
 #include "dominios.h"
 #include "entidades.h"
 
+/**
+ *
+ * @brief Classe abstrata que representa um teste de dominio generico
+ */
 class TesteDominio {
     private:
-        virtual void setUp()= 0;
-        virtual void tearDown()= 0;
-        virtual void testarValorValido()= 0;
-        virtual void testarValorInvalido()= 0;
+        virtual void setUp()= 0;                  // Metodo para criar unidade em teste
+        virtual void tearDown()= 0;               // Metodo para destruir unidade em teste
+        virtual void testarValorValido()= 0;      // Cenario de teste sucesso
+        virtual void testarValorInvalido()= 0;    // Cenario de teste falha
     protected:
+        /**
+        * @brief Atributo protegido que armazena o valor da situacao do teste
+        */
         string situacao;
     public:
+        /**
+        * @brief Constante respresentando o sucesso do teste
+        */
         const string SUCESSO =  "Sucesso!";
+        /**
+        * @brief Constante respresentando a falha do teste.
+        */
         const string FALHA = "Erro.";
+        /**
+        * @brief Metodo para executar o teste
+        * @return O estado do teste (SUCESSO ou FALHA)
+        */
         string run();
 };
 
+// --------------
+/**
+ * @brief Classe para testar o dominio CodigoPagamento
+ */
 class TesteCodigoPagamento : public TesteDominio {
     private:
         CodigoPagamento *codigopagamento;
@@ -34,6 +55,10 @@ class TesteCodigoPagamento : public TesteDominio {
         void tearDown();
 };
 
+// --------------
+/**
+ * @brief Classe para testar o dominio CodigoTitulo
+ */
 class TesteCodigoTitulo : public TesteDominio {
     private:
         CodigoTitulo *codigotitulo;
@@ -45,6 +70,10 @@ class TesteCodigoTitulo : public TesteDominio {
         void tearDown();
 };
 
+// --------------
+/**
+ * @brief Classe para testar o dominio CPF
+ */
 class TesteCPF : public TesteDominio {
     private:
         CPF *cpf;
@@ -57,6 +86,10 @@ class TesteCPF : public TesteDominio {
         void tearDown();
 };
 
+// --------------
+/**
+ * @brief Classe para testar o dominio Data
+ */
 class TesteData : public TesteDominio {
     private:
         Data *data;
@@ -69,6 +102,10 @@ class TesteData : public TesteDominio {
         void tearDown();
 };
 
+// --------------
+/**
+ * @brief Classe para testar o dominio Dinheiro
+ */
 class TesteDinheiro : public TesteDominio {
     private:
         Dinheiro *dinheiro;
@@ -81,6 +118,10 @@ class TesteDinheiro : public TesteDominio {
         void tearDown();
 };
 
+// --------------
+/**
+ * @brief Classe para testar o dominio Estado
+ */
 class TesteEstado : public TesteDominio {
     private:
         Estado *estado;
@@ -92,6 +133,10 @@ class TesteEstado : public TesteDominio {
         void tearDown();
 };
 
+// --------------
+/**
+ * @brief Classe para testar o dominio Nome
+ */
 class TesteNome : public TesteDominio {
     private:
         Nome *nome;
@@ -104,6 +149,10 @@ class TesteNome : public TesteDominio {
         void tearDown();
 };
 
+// --------------
+/**
+ * @brief Classe para testar o dominio Percentual
+ */
 class TestePercentual : public TesteDominio {
     private:
         Percentual *percentual;
@@ -115,6 +164,10 @@ class TestePercentual : public TesteDominio {
         void tearDown();
 };
 
+// --------------
+/**
+ * @brief Classe para testar o dominio Senha
+ */
 class TesteSenha : public TesteDominio {
     private:
         Senha *senha;
@@ -126,6 +179,10 @@ class TesteSenha : public TesteDominio {
         void tearDown();
 };
 
+// --------------
+/**
+ * @brief Classe para testar o dominio Setor
+ */
 class TesteSetor : public TesteDominio {
     private:
         Setor *setor;

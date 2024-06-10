@@ -1,0 +1,5774 @@
+AutoGen Definitions dummy;
+class = {
+  cp-id     = 'classCodigoPagamento';
+  cp-name   = 'CodigoPagamento';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'classDominio';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classCodigoPagamento_1ad2fb9b28d4f4fa93120f1182e56fa738';
+      sec-mem-virt = virtual;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setValor';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'valor';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+      sec-mem-desc-line = '53';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para definir o valor do codigo de pagamento.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param string com o valor a ser definido
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classCodigoPagamento_1a6c593a34c975b72aa1c8154a5e3de0d6';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'validar';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'valor';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+      sec-mem-desc-line = '47';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+  cp-fileline  = '45';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe CodigoPagamento representando uma string que deve possuir as seguintes regras de formatacao:
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+ - Formato XXXXXXXXX;
+ - X como dígito (0-9);
+ - Primeiro digito diferente de zero (1-9).
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'CodigoPagamento';
+        node-link = {
+          node-link-id = 'classCodigoPagamento';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'Dominio';
+        node-link = {
+          node-link-id = 'classDominio';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'CodigoPagamento';
+        node-link = {
+          node-link-id = 'classCodigoPagamento';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'Dominio';
+        node-link = {
+          node-link-id = 'classDominio';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classCodigoTitulo';
+  cp-name   = 'CodigoTitulo';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'classDominio';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classCodigoTitulo_1a92e8c6eff71d5a6c21f62ccef1d25d8b';
+      sec-mem-virt = virtual;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setValor';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'valor';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+      sec-mem-desc-line = '70';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para definir o valor do codigo de titulo.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param string com o valor a ser definido
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classCodigoTitulo_1a309ac1b5396ded32a84aaef5c42ea886';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'validar';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'valor';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+      sec-mem-desc-line = '64';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+  cp-fileline  = '62';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe CodigoTitulo representando uma string que deve possuir as seguintes regras de formatacao:
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+ - Formato CDBXXXXXXXX, CRAXXXXXXXX, CRIXXXXXXXX, LCAXXXXXXXX, LCIXXXXXXXX ou DEBXXXXXXXX;
+ - X como letra maiuscula (A-Z) ou digito (0-9).
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'CodigoTitulo';
+        node-link = {
+          node-link-id = 'classCodigoTitulo';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'Dominio';
+        node-link = {
+          node-link-id = 'classDominio';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'CodigoTitulo';
+        node-link = {
+          node-link-id = 'classCodigoTitulo';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'Dominio';
+        node-link = {
+          node-link-id = 'classDominio';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classConta';
+  cp-name   = 'Conta';
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classConta_1a511fb6342cd16a600c76ade57f034116';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setCPF';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const CPF &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'cpf';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '23';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para atribuir o CPF.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param string com o valor do CPF a ser atribuido
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classConta_1aefc5e4802396851fc79cc7f6ab95705f';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+CPF
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getCPF';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '28';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para obter o valor do CPF.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@return String com o valor do CPF
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classConta_1a9160a8c46fdf894ca6c3fdf98f8faee1';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setNome';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const Nome &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'nome';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '34';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para atribuir o nome.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param string com o valor do nome a ser atribuido
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classConta_1aac660b7dd90148ff41f89f3732f0d52b';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Nome
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getNome';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '39';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para obter o valor do nome.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@return String com o valor do nome
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classConta_1a16585ba03471ca5fc626332025e558cf';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setSenha';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const Senha &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'senha';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '45';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para atribuir a senha.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param string com o valor da senha a ser atribuido
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classConta_1aa36f37646e006dc200f82bc9f384d79b';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Senha
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getSenha';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '50';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para obter o valor da senha.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@return String com o valor da senha
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classConta_1a6ce79c656921fddf66a5bbdcc9e761b8';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+CPF
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'cpf';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '14';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classConta_1a8b59fa61392f18474cfa975d63ad1cc3';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Nome
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'nome';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '15';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classConta_1a1dc0ffd077dacef15e668fd52649f5b3';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Senha
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'senha';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '16';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+  cp-fileline  = '12';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe Entidade Conta, cujos atributos sao:
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+ - cpf, objeto da classe CPF;
+ - nome, objeto da classe Nome;
+ - senha, objeto da classe Senha.
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classCPF';
+  cp-name   = 'CPF';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'classDominio';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classCPF_1a8480f4fd84e3ecfbdda27b4a2678900f';
+      sec-mem-virt = virtual;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setValor';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'valor';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+      sec-mem-desc-line = '90';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para definir o valor do CPF.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param string com o valor a ser definido
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classCPF_1ac41b13b49bee4551a79c1cc1c369d22e';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'validar';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'valor';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+      sec-mem-desc-line = '84';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+  cp-fileline  = '82';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe CPF representando uma string que deve possuir as seguintes regras de formatacao:
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+ - Formato XXX.XXX.XXX-CC;
+ - X como digito (0-9);
+ - Pontos usados para separar sequencias de tres digitos;
+ - Hifen usado para separar sequencias de digitos de caracteres de validacao;
+ - CC como caracteres de validacao calculados segundo algoritmo de validacao de CPF.
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'CPF';
+        node-link = {
+          node-link-id = 'classCPF';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'Dominio';
+        node-link = {
+          node-link-id = 'classDominio';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'CPF';
+        node-link = {
+          node-link-id = 'classCPF';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'Dominio';
+        node-link = {
+          node-link-id = 'classDominio';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classData';
+  cp-name   = 'Data';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'classDominio';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classData_1aee3a6598533a28a3f446c5f8ecb63c0f';
+      sec-mem-virt = virtual;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setValor';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'valor';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+      sec-mem-desc-line = '111';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para definir o valor da data.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param string com o valor a ser definido
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classData_1a4d3e19547ec8d0bd1ad32e552cebc403';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'validar';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'valor';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+      sec-mem-desc-line = '105';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+  cp-fileline  = '103';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe Data representando uma string que deve possuir as seguintes regras de formatação:
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+ - Formato DD-MM-AAAA;
+ - DD como o dia, valendo de 01 a 31;
+ - MM como o mes, valendo de 01 a 12;
+ - AA como o ano, valendo de 2000 a 2100;
+ - Hifens sao usados para separar dias, meses e anos;
+ - Anos bissextos sao considerados.
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'Data';
+        node-link = {
+          node-link-id = 'classData';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'Dominio';
+        node-link = {
+          node-link-id = 'classDominio';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'Data';
+        node-link = {
+          node-link-id = 'classData';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'Dominio';
+        node-link = {
+          node-link-id = 'classDominio';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classDinheiro';
+  cp-name   = 'Dinheiro';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'classDominio';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classDinheiro_1a426d8d9576e3f0d9784964b2f18a1d7c';
+      sec-mem-virt = virtual;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setValor';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'valor';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+      sec-mem-desc-line = '129';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para definir o valor do dinheiro.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param string com o valor a ser definido
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classDinheiro_1a220cb739b083b444959e831a8e2d4c7c';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'validar';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'valor';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+      sec-mem-desc-line = '123';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+  cp-fileline  = '121';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe Dinheiro representando uma string que deve possuir as seguintes regras de formatação:
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+ - Valor de 0,00 a 1.000.000,00;
+ - Pontos podem separar grupos de 3 digitos nos reais;
+ - Virgula deve separar os digitos dos reais dos dois digitos dos centavos.
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'Dinheiro';
+        node-link = {
+          node-link-id = 'classDinheiro';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'Dominio';
+        node-link = {
+          node-link-id = 'classDominio';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'Dinheiro';
+        node-link = {
+          node-link-id = 'classDinheiro';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'Dominio';
+        node-link = {
+          node-link-id = 'classDominio';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classDominio';
+  cp-name   = 'Dominio';
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'classCPF';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'classCodigoPagamento';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'classCodigoTitulo';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'classData';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'classDinheiro';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'classEstado';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'classNome';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'classPercentual';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'classSenha';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'classSetor';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classDominio_1af08629d4e2fa6c63723a30cddc350ff2';
+      sec-mem-virt = pure-virtual;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+virtual void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setValor';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+      sec-mem-desc-line = '26';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo virtual puro para definir o valor do atributo.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param string com o valor a ser atribuido
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classDominio_1adc86858ec8f9d7d91a0d8498f3614864';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getValor';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+      sec-mem-desc-line = '31';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para obter o valor armazenado do atributo.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param string com o valor atual armazenado
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'protected-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classDominio_1adf6b3cc90ca5abce6cd462cdb313220e';
+      sec-mem-virt = normal;
+      sec-mem-prot = protected;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'valor';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+      sec-mem-desc-line = '20';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Atributo protegido que armazena o valor do dominio.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classDominio_1a778fa2ec4c361cc2d368f6fa01727be8';
+      sec-mem-virt = pure-virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+virtual void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'validar';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+      sec-mem-desc-line = '15';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+  cp-fileline  = '13';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe abstrata que representa um dominio generico.
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'CPF';
+        node-link = {
+          node-link-id = 'classCPF';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 3;
+        node-label = 'CodigoPagamento';
+        node-link = {
+          node-link-id = 'classCodigoPagamento';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 4;
+        node-label = 'CodigoTitulo';
+        node-link = {
+          node-link-id = 'classCodigoTitulo';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 5;
+        node-label = 'Data';
+        node-link = {
+          node-link-id = 'classData';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 6;
+        node-label = 'Dinheiro';
+        node-link = {
+          node-link-id = 'classDinheiro';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'Dominio';
+        node-link = {
+          node-link-id = 'classDominio';
+        };
+      }; /* node */
+      node = {
+        node-id    = 7;
+        node-label = 'Estado';
+        node-link = {
+          node-link-id = 'classEstado';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 8;
+        node-label = 'Nome';
+        node-link = {
+          node-link-id = 'classNome';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 9;
+        node-label = 'Percentual';
+        node-link = {
+          node-link-id = 'classPercentual';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 10;
+        node-label = 'Senha';
+        node-link = {
+          node-link-id = 'classSenha';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 11;
+        node-label = 'Setor';
+        node-link = {
+          node-link-id = 'classSetor';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classEstado';
+  cp-name   = 'Estado';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'classDominio';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classEstado_1ac56be1cfea161e20258f42e206359250';
+      sec-mem-virt = virtual;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setValor';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'valor';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+      sec-mem-desc-line = '145';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para definir o valor do estado.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param string com o valor a ser definido
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classEstado_1a3a91f0c0b733c5ca6309feeea12dacf1';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'validar';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'valor';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+      sec-mem-desc-line = '139';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+  cp-fileline  = '137';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe Estado representando uma string que deve possuir os seguintes valores:
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+ - Previsto, Liquidado, Inadimplente.
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'Dominio';
+        node-link = {
+          node-link-id = 'classDominio';
+        };
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'Estado';
+        node-link = {
+          node-link-id = 'classEstado';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'Dominio';
+        node-link = {
+          node-link-id = 'classDominio';
+        };
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'Estado';
+        node-link = {
+          node-link-id = 'classEstado';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classNome';
+  cp-name   = 'Nome';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'classDominio';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classNome_1aaad6a1ad8718cce8dde090a435c3cd81';
+      sec-mem-virt = virtual;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setValor';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'valor';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+      sec-mem-desc-line = '165';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para definir o valor do nome.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param string com o valor a ser definido
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classNome_1a0f8a375558a40c9b0a6b1ab44487aa40';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'validar';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'valor';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+      sec-mem-desc-line = '159';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+  cp-fileline  = '157';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe Nome representando uma string que deve possuir as seguintes regras de formatacao:
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+ - Composto por um ou dois termos;
+ - Cada termo possui de 3 a 10 caracteres;
+ - Cada caracter deve ser uma letra (a-z, A-Z);
+ - Termos sao separados por espaço em branco;
+ - Primeiro caracter de cada termo e letra maiuscula.
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'Dominio';
+        node-link = {
+          node-link-id = 'classDominio';
+        };
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'Nome';
+        node-link = {
+          node-link-id = 'classNome';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'Dominio';
+        node-link = {
+          node-link-id = 'classDominio';
+        };
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'Nome';
+        node-link = {
+          node-link-id = 'classNome';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classPagamento';
+  cp-name   = 'Pagamento';
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classPagamento_1a95bc2c4f5b2a566a36181ccac4d90606';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setCodigo';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const CodigoPagamento &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'codigo';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '234';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para atribuir o codigo.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param string com o valor do codigo a ser atribuido
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classPagamento_1adfab9a30fec91421cdecff66753e126b';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+CodigoPagamento
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getCodigo';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '239';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para obter o valor do codigo.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@return String com o valor do codigo
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classPagamento_1a8757f1e5f0b573a69ffb8e3a03449900';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setData';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const Data &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'data';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '245';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para atribuir a data.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param string com o valor da data a ser atribuido
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classPagamento_1a059c15107191083c79191f9e3d798e38';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Data
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getData';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '250';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para obter o valor da data.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@return String com o valor da data
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classPagamento_1a1add4a38f0d2538c525c066e1ec16224';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setPercentual';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const Percentual &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'percentual';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '256';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para atribuir o percentual.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param string com o valor do percentual a ser atribuido
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classPagamento_1ab8d713bb597b69badd735d03bdd5ed5e';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Percentual
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getPercentual';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '261';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para obter o valor do percentual.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@return String com o valor do percentual
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classPagamento_1afecf368d52fc4fec694a9e0a3c92be32';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setEstado';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const Estado &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'estado';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '267';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para atribuir o estado.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param string com o valor do estado a ser atribuido
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classPagamento_1ac6d963b2619268e67b8f56828d0dbedf';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Estado
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getEstado';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '272';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para obter o valor do estado.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@return String com o valor do estado
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classPagamento_1a79af68d681d1604c85e5357e6143db7d';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+CodigoPagamento
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'codigo';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '225';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classPagamento_1a2c128f69241cde0a93013b65cb9a7c9d';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Data
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'data';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '226';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classPagamento_1a1bef65c3ccea7b9c6a0ad082dd2ac857';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Percentual
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'percentual';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '227';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classPagamento_1a7316df2f9fdb3a3f4564a2dbdd7b0e57';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Estado
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'estado';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '228';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+  cp-fileline  = '223';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe Entidade Pagamento, cujos atributos sao:
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+ - codigo, objeto da classe CodigoPagamento;
+ - data, objeto da classe Data;
+ - percentual, objeto da classe Percentual;
+ - estado, objeto da classe Estado;
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classPercentual';
+  cp-name   = 'Percentual';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'classDominio';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classPercentual_1afc74053deffe4f4b273969f685f308c7';
+      sec-mem-virt = virtual;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setValor';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'valor';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+      sec-mem-desc-line = '181';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para definir o valor do percentual.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param string com o valor a ser definido
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classPercentual_1a11c592d540550806ccb8a2c00b60007e';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'validar';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'valor';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+      sec-mem-desc-line = '175';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+  cp-fileline  = '173';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe Dinheiro representando uma string que deve ser:
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+ - Valor de 0 a 100;
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'Dominio';
+        node-link = {
+          node-link-id = 'classDominio';
+        };
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'Percentual';
+        node-link = {
+          node-link-id = 'classPercentual';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'Dominio';
+        node-link = {
+          node-link-id = 'classDominio';
+        };
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'Percentual';
+        node-link = {
+          node-link-id = 'classPercentual';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classSenha';
+  cp-name   = 'Senha';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'classDominio';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classSenha_1a379d90c214392ccb42aaf49e3d39e112';
+      sec-mem-virt = virtual;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setValor';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'valor';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+      sec-mem-desc-line = '201';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para definir o valor da senha.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param string com o valor a ser definido
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classSenha_1ac44607343a6883a44048471b76d1e3df';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'validar';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'valor';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+      sec-mem-desc-line = '195';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+  cp-fileline  = '193';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe Senha representando uma string que deve possuir as seguintes regras de formatacao:
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+ - Formato XXXXXX;
+ - X deve ser degito (0-9);
+ - Nao ha digito duplicado;
+ - Primeiro digito deve ser diferente de zero (1-9);
+ - Sequencia de digitos nao pode ser em ordem crescente ou decrescente.
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'Dominio';
+        node-link = {
+          node-link-id = 'classDominio';
+        };
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'Senha';
+        node-link = {
+          node-link-id = 'classSenha';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'Dominio';
+        node-link = {
+          node-link-id = 'classDominio';
+        };
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'Senha';
+        node-link = {
+          node-link-id = 'classSenha';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classSetor';
+  cp-name   = 'Setor';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'classDominio';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classSetor_1ae7b9c1b5f54cdd649852a4c848190fae';
+      sec-mem-virt = virtual;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setValor';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'valor';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+      sec-mem-desc-line = '218';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para definir o valor do setor.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param string com o valor a ser definido
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classSetor_1a7733d7a5aaad43972b81d240a59e531d';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'validar';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'valor';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+      sec-mem-desc-line = '212';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+  cp-fileline  = '210';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe Estado representando uma string que deve possuir os seguintes valores:
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+ - Agricultura, Construcao Civil, Energia, Financas, Imobiliario, Papel e celulose, Pecuria, Quimica e petroquimica, Metalurgia e siderurgia e Mineracao;
+ - Nao sao considerados acentuação e cedilha.
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'Dominio';
+        node-link = {
+          node-link-id = 'classDominio';
+        };
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'Setor';
+        node-link = {
+          node-link-id = 'classSetor';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'Dominio';
+        node-link = {
+          node-link-id = 'classDominio';
+        };
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'Setor';
+        node-link = {
+          node-link-id = 'classSetor';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classTesteCodigoPagamento';
+  cp-name   = 'TesteCodigoPagamento';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'classTesteDominio';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteCodigoPagamento_1abb7c11a631202d332fe5c830e3b3f1ee';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setUp';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '52';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteCodigoPagamento_1ababf39aa51a9f94a50a7fafdc0b8a78b';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'testarValorInvalido';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '53';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteCodigoPagamento_1a05760be244bd93d7421024c2f09506fa';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'testarValorValido';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '54';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteCodigoPagamento_1a885d9841e905f34938591ed9b22aaf3e';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'tearDown';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '55';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteCodigoPagamento_1a9ee5ce9cc4309a0569079c4ed26e9d4f';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+CodigoPagamento *
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'codigopagamento';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '48';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteCodigoPagamento_1aec0724cb9571135ea99b969616a624be';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'VALOR_VALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "12345678"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '49';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteCodigoPagamento_1ae548f3b436fe01c73e26acacc5cf127c';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'VALOR_INVALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "01234567"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '50';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteCodigoPagamento_1a805fc723b2f200ac56856ec0d93e82ff';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'VALOR_INVALIDO2';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "0123456"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '51';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+  cp-fileline  = '46';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe para testar o dominio CodigoPagamento.
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'TesteCodigoPagamento';
+        node-link = {
+          node-link-id = 'classTesteCodigoPagamento';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'TesteDominio';
+        node-link = {
+          node-link-id = 'classTesteDominio';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'TesteCodigoPagamento';
+        node-link = {
+          node-link-id = 'classTesteCodigoPagamento';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'TesteDominio';
+        node-link = {
+          node-link-id = 'classTesteDominio';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classTesteCodigoTitulo';
+  cp-name   = 'TesteCodigoTitulo';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'classTesteDominio';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteCodigoTitulo_1a3230dd692874230ec335eda6a8bc878c';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setUp';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '67';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteCodigoTitulo_1a8967fb21f5f89eb079602173516ba48a';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'testarValorInvalido';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '68';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteCodigoTitulo_1a9f34b6af08f4f6e6995382c86b570962';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'testarValorValido';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '69';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteCodigoTitulo_1aab6f3563674a4e0b9e6cd4abbc1a8c63';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'tearDown';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '70';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteCodigoTitulo_1a66f0e9a70c06e6c67590a5df4dfbf6c1';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+CodigoTitulo *
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'codigotitulo';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '64';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteCodigoTitulo_1aac814dd76d7beb25891b64383a6c6185';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'VALOR_VALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "CRAAH73T60O"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '65';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteCodigoTitulo_1a682670b9ea80ea4c2ba36edcea2913ed';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'VALOR_INVALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "CRE123456AA"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '66';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+  cp-fileline  = '62';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe para testar o dominio CodigoTitulo.
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'TesteCodigoTitulo';
+        node-link = {
+          node-link-id = 'classTesteCodigoTitulo';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'TesteDominio';
+        node-link = {
+          node-link-id = 'classTesteDominio';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'TesteCodigoTitulo';
+        node-link = {
+          node-link-id = 'classTesteCodigoTitulo';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'TesteDominio';
+        node-link = {
+          node-link-id = 'classTesteDominio';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classTesteConta';
+  cp-name   = 'TesteConta';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'classTesteEntidade';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteConta_1ac10490151c09a671fb02312932ec7d3f';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setUp';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '50';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteConta_1ac4c003beb3403bc480b7e04742ce82fe';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'tearDown';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '51';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteConta_1aa67097eebfcb4225da6e9e71d13fd5b6';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'testarCenarioSucesso';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '52';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteConta_1aeeee28a3571e26eed89bc70e3e4b72b6';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'CPF_VALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "343.539.501-00"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '46';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteConta_1ac4ed789b8499636e7793f3bc78e1c732';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'NOME_VALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "Valeria Penna"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '47';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteConta_1a91918073ba3e726ad163b6e218177f92';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'SENHA_VALIDA';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "586794"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '48';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteConta_1a38a9145b71eadbe9bec3dae505fa759e';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Conta *
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'conta';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '49';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+  cp-fileline  = '45';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe para testar a entidade Conta.
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'TesteConta';
+        node-link = {
+          node-link-id = 'classTesteConta';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'TesteEntidade';
+        node-link = {
+          node-link-id = 'classTesteEntidade';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'TesteConta';
+        node-link = {
+          node-link-id = 'classTesteConta';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'TesteEntidade';
+        node-link = {
+          node-link-id = 'classTesteEntidade';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classTesteCPF';
+  cp-name   = 'TesteCPF';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'classTesteDominio';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteCPF_1a1d40757e17bb58883e2a4b296c2dd8ce';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setUp';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '83';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteCPF_1a57c1b873e3aa64ce2882d9ee1baea259';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'testarValorInvalido';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '84';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteCPF_1a6feda437d25589d890b598540b609a7a';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'testarValorValido';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '85';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteCPF_1a44aef802d42a2823b43313d8ade6da0a';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'tearDown';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '86';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteCPF_1ac8503b2a8efe822f8f645139a4027f45';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+CPF *
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'cpf';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '79';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteCPF_1a6884612ac9450cd80054724bf9699f87';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'VALOR_VALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "082.534.051-97"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '80';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteCPF_1a2cb4a8de397d442b016994ae592b6d13';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'VALOR_INVALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "082.534.051-99"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '81';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteCPF_1a16a06ebe97f65d608d077813f00b221c';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'VALOR_INVALIDO2';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "082 534 051 97"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '82';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+  cp-fileline  = '77';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe para testar o dominio CPF.
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'TesteCPF';
+        node-link = {
+          node-link-id = 'classTesteCPF';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'TesteDominio';
+        node-link = {
+          node-link-id = 'classTesteDominio';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'TesteCPF';
+        node-link = {
+          node-link-id = 'classTesteCPF';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'TesteDominio';
+        node-link = {
+          node-link-id = 'classTesteDominio';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classTesteData';
+  cp-name   = 'TesteData';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'classTesteDominio';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteData_1a918a6b4ad04553fa8aa37f73d4b5df13';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setUp';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '99';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteData_1ae83580fc12fa2657e690f2696b38635f';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'testarValorInvalido';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '100';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteData_1a2c3ad5e56c0564cf9c77fb91e1096b67';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'testarValorValido';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '101';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteData_1a43af37425d10f8ac4b8ecc385982af2a';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'tearDown';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '102';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteData_1a5b9683fa7eb84565f48a1d2336d5acef';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Data *
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'data';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '95';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteData_1ab74e9638467053b814f4652340f23a1f';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'VALOR_VALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "25-09-2003"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '96';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteData_1afcd730039f10f0326762815213a23f6e';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'VALOR_INVALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "31-09-2024"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '97';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteData_1a1738bc6c0ac228a3ffed8cb09531921f';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'VALOR_INVALIDO2';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "31-JAN-2024"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '98';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+  cp-fileline  = '93';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe para testar o dominio Data.
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'TesteData';
+        node-link = {
+          node-link-id = 'classTesteData';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'TesteDominio';
+        node-link = {
+          node-link-id = 'classTesteDominio';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'TesteData';
+        node-link = {
+          node-link-id = 'classTesteData';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'TesteDominio';
+        node-link = {
+          node-link-id = 'classTesteDominio';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classTesteDinheiro';
+  cp-name   = 'TesteDinheiro';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'classTesteDominio';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteDinheiro_1a84e3ba7d6db22d8b20697188a9cbb904';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setUp';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '115';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteDinheiro_1ab7860bd480b82981989e4c6438226a1d';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'testarValorInvalido';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '116';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteDinheiro_1a00147b7594fb8e4142474ab0a4d5b017';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'testarValorValido';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '117';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteDinheiro_1a25d0ff99dca333cb28c1cb5b6ee9ff4f';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'tearDown';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '118';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteDinheiro_1a2a73a8bb79805c4ef51ab62e8793edf4';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Dinheiro *
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'dinheiro';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '111';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteDinheiro_1a66dabc7e263c44d593a7510c7c664110';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'VALOR_VALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "3.563,56"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '112';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteDinheiro_1a9a6f26be949f38dfe08f24b004a8a1d7';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'VALOR_INVALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "1.000.001,00"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '113';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteDinheiro_1a2314dc86a45bf4b7b867122bfb175bc3';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'VALOR_INVALIDO2';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "-1,00"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '114';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+  cp-fileline  = '109';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe para testar o dominio Dinheiro.
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'TesteDinheiro';
+        node-link = {
+          node-link-id = 'classTesteDinheiro';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'TesteDominio';
+        node-link = {
+          node-link-id = 'classTesteDominio';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'TesteDinheiro';
+        node-link = {
+          node-link-id = 'classTesteDinheiro';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'TesteDominio';
+        node-link = {
+          node-link-id = 'classTesteDominio';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classTesteDominio';
+  cp-name   = 'TesteDominio';
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'classTesteCPF';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'classTesteCodigoPagamento';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'classTesteCodigoTitulo';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'classTesteData';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'classTesteDinheiro';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'classTesteEstado';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'classTesteNome';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'classTestePercentual';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'classTesteSenha';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'classTesteSetor';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteDominio_1aa87157d5164cbc56feec2bbd50824d0b';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'run';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '39';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para executar o teste.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@return O estado do teste (SUCESSO ou FALHA)
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'public-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteDominio_1ade9a6eb38e1fc988dc39c06f124d2ab7';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'SUCESSO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+=  "Sucesso!"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '30';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Constante respresentando o sucesso do teste.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteDominio_1a3a946e9969bed41204431b0e61e6b318';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'FALHA';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "Erro."
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '34';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Constante respresentando a falha do teste.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'protected-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteDominio_1a1b160357dc2e856dd891adec710ce96c';
+      sec-mem-virt = normal;
+      sec-mem-prot = protected;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'situacao';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '25';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Atributo protegido que armazena o valor da situacao do teste.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteDominio_1af8ca6198c86810ae16dfdedbf375d0c3';
+      sec-mem-virt = pure-virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+virtual void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setUp';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '17';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteDominio_1a9434abc035d36269db869dd3ce661175';
+      sec-mem-virt = pure-virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+virtual void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'tearDown';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '18';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteDominio_1a4291fc93126e36596377dc26ff76a62d';
+      sec-mem-virt = pure-virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+virtual void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'testarValorValido';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '19';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteDominio_1a2f50f2328d6b90e6d8f5672d373899a6';
+      sec-mem-virt = pure-virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+virtual void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'testarValorInvalido';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '20';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+  cp-fileline  = '15';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe abstrata que representa um teste de dominio generico.
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'TesteCPF';
+        node-link = {
+          node-link-id = 'classTesteCPF';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 3;
+        node-label = 'TesteCodigoPagamento';
+        node-link = {
+          node-link-id = 'classTesteCodigoPagamento';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 4;
+        node-label = 'TesteCodigoTitulo';
+        node-link = {
+          node-link-id = 'classTesteCodigoTitulo';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 5;
+        node-label = 'TesteData';
+        node-link = {
+          node-link-id = 'classTesteData';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 6;
+        node-label = 'TesteDinheiro';
+        node-link = {
+          node-link-id = 'classTesteDinheiro';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'TesteDominio';
+        node-link = {
+          node-link-id = 'classTesteDominio';
+        };
+      }; /* node */
+      node = {
+        node-id    = 7;
+        node-label = 'TesteEstado';
+        node-link = {
+          node-link-id = 'classTesteEstado';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 8;
+        node-label = 'TesteNome';
+        node-link = {
+          node-link-id = 'classTesteNome';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 9;
+        node-label = 'TestePercentual';
+        node-link = {
+          node-link-id = 'classTestePercentual';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 10;
+        node-label = 'TesteSenha';
+        node-link = {
+          node-link-id = 'classTesteSenha';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 11;
+        node-label = 'TesteSetor';
+        node-link = {
+          node-link-id = 'classTesteSetor';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classTesteEntidade';
+  cp-name   = 'TesteEntidade';
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'classTesteConta';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'classTestePagamento';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'classTesteTitulo';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteEntidade_1ab62d53b7f15ba097bf7a9b101c458101';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'run';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '38';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para executar o teste.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@return O estado do teste (SUCESSO ou FALHA)
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'public-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteEntidade_1a962e2bcf2953c3901da6edcc513f1005';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'SUCESSO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+=  "Sucesso!"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '29';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Constante respresentando o sucesso do teste.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteEntidade_1a961d8302988d724bcd8feca589cb08f6';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'FALHA';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "Erro."
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '33';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Constante respresentando a falha do teste.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'protected-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteEntidade_1a39b8816edea598c9b989adc39f7c6129';
+      sec-mem-virt = normal;
+      sec-mem-prot = protected;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'situacao';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '24';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Atributo protegido que armazena o valor da situacao do teste.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteEntidade_1aad83400f6d4e22f79f35f0ce303300ae';
+      sec-mem-virt = pure-virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+virtual void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setUp';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '17';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteEntidade_1a37807af344f562d39074539873dd9697';
+      sec-mem-virt = pure-virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+virtual void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'tearDown';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '18';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteEntidade_1aba311aed824ce0a30e09bf01c32526ed';
+      sec-mem-virt = pure-virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+virtual void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'testarCenarioSucesso';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '19';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+  cp-fileline  = '15';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe abstrata que representa um teste de entidade generico.
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'TesteConta';
+        node-link = {
+          node-link-id = 'classTesteConta';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'TesteEntidade';
+        node-link = {
+          node-link-id = 'classTesteEntidade';
+        };
+      }; /* node */
+      node = {
+        node-id    = 3;
+        node-label = 'TestePagamento';
+        node-link = {
+          node-link-id = 'classTestePagamento';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 4;
+        node-label = 'TesteTitulo';
+        node-link = {
+          node-link-id = 'classTesteTitulo';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classTesteEstado';
+  cp-name   = 'TesteEstado';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'classTesteDominio';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteEstado_1ac4af8cb4883562e1bfa51f752195d76e';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setUp';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '130';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteEstado_1a9f58850e4ca91914258ed2edc3b9ee8d';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'testarValorInvalido';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '131';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteEstado_1a8034eb40bd098220cd8e1d95bcb3f8b9';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'testarValorValido';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '132';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteEstado_1a30680625d053e7ec0c1d8c796ec2785e';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'tearDown';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '133';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteEstado_1a55c113f947f67314c473820de933774d';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Estado *
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'estado';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '127';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteEstado_1a50edb79f0a8f92024d0d9326e5dd483d';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'VALOR_VALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "Previsto"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '128';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteEstado_1a439895102140bfcef855c2e0b07110b9';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'VALOR_INVALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "Solteiro"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '129';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+  cp-fileline  = '125';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe para testar o dominio Estado.
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'TesteDominio';
+        node-link = {
+          node-link-id = 'classTesteDominio';
+        };
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'TesteEstado';
+        node-link = {
+          node-link-id = 'classTesteEstado';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'TesteDominio';
+        node-link = {
+          node-link-id = 'classTesteDominio';
+        };
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'TesteEstado';
+        node-link = {
+          node-link-id = 'classTesteEstado';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classTesteNome';
+  cp-name   = 'TesteNome';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'classTesteDominio';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteNome_1afa982e49f5eb8b3b0ae9a32440651dbe';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setUp';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '146';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteNome_1ac458522d5ada03933b74d224827c6fa0';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'testarValorInvalido';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '147';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteNome_1af690aedcf04f97f6314f18dcaf1c4219';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'testarValorValido';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '148';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteNome_1ab568679e661fd204bfddaa544bd19edb';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'tearDown';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '149';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteNome_1af31a0672ae4ed661995e0e611f22c508';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Nome *
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'nome';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '142';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteNome_1a28220d2c41880ab2219b56eef5b7686f';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'VALOR_VALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "Nicole Gomes"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '143';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteNome_1ab8c0df5020cf2019e56d097a68436977';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'VALOR_INVALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "Fernando Albuquerque"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '144';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteNome_1a5408e56ffcce750c0d30f83426f06b2f';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'VALOR_INVALIDO2';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "Maria clara"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '145';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+  cp-fileline  = '140';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe para testar o dominio Nome.
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'TesteDominio';
+        node-link = {
+          node-link-id = 'classTesteDominio';
+        };
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'TesteNome';
+        node-link = {
+          node-link-id = 'classTesteNome';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'TesteDominio';
+        node-link = {
+          node-link-id = 'classTesteDominio';
+        };
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'TesteNome';
+        node-link = {
+          node-link-id = 'classTesteNome';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classTestePagamento';
+  cp-name   = 'TestePagamento';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'classTesteEntidade';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTestePagamento_1a48c03c4be9a24016af381c39827fb327';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setUp';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '83';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTestePagamento_1ad6da62d8baa5799be24ed396d33c1a39';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'tearDown';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '84';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTestePagamento_1a6fef6afc85febdeda23cca3de7375fc7';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'testarCenarioSucesso';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '85';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTestePagamento_1a1a0fe0e77a32ba0ac6e3249ee6e03223';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'CODIGOPAG_VALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "87654321"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '78';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTestePagamento_1a8bad3c917f1419f3a0beeabe77d7ff50';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'DATA_VALIDA';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "31-07-2068"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '79';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTestePagamento_1a9fd1184121f2fa14c7a10242f0257c06';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'PERCENTUAL_VALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "69"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '80';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTestePagamento_1a10d45bb13dc0e4ecb1d129ed1cda686b';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'ESTADO_VALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "Inadimplente"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '81';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTestePagamento_1a54562f120ddd107e2d1c6f3118820594';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Pagamento *
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'pagamento';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '82';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+  cp-fileline  = '76';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe para testar a entidade Pagamento.
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'TesteEntidade';
+        node-link = {
+          node-link-id = 'classTesteEntidade';
+        };
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'TestePagamento';
+        node-link = {
+          node-link-id = 'classTestePagamento';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'TesteEntidade';
+        node-link = {
+          node-link-id = 'classTesteEntidade';
+        };
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'TestePagamento';
+        node-link = {
+          node-link-id = 'classTestePagamento';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classTestePercentual';
+  cp-name   = 'TestePercentual';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'classTesteDominio';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTestePercentual_1a71744a79fc511ef1dc7bc1aeeb0a87b1';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setUp';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '161';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTestePercentual_1ac82c7bdadde9f554f3da0d1f3139df1a';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'testarValorInvalido';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '162';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTestePercentual_1a2625e39c94f7a77771438295d67380b5';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'testarValorValido';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '163';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTestePercentual_1af708cb0813251c32ad0a2b2481473080';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'tearDown';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '164';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTestePercentual_1a019f77c39cdf6bab8673ec2a29808e6d';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Percentual *
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'percentual';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '158';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTestePercentual_1a3b6f43ca30aaa2bb196454533084999c';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'VALOR_VALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "56"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '159';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTestePercentual_1ac11f33761ad0e7bb2437915e4b4d1660';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'VALOR_INVALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "101"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '160';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+  cp-fileline  = '156';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe para testar o dominio Percentual.
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'TesteDominio';
+        node-link = {
+          node-link-id = 'classTesteDominio';
+        };
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'TestePercentual';
+        node-link = {
+          node-link-id = 'classTestePercentual';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'TesteDominio';
+        node-link = {
+          node-link-id = 'classTesteDominio';
+        };
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'TestePercentual';
+        node-link = {
+          node-link-id = 'classTestePercentual';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classTesteSenha';
+  cp-name   = 'TesteSenha';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'classTesteDominio';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteSenha_1a58404c3bd8f7cb9025793a26fe01e6e7';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setUp';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '176';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteSenha_1aedee53ae24ed486bed3b37407737f520';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'testarValorInvalido';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '177';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteSenha_1a66f27a6b8078ed2ad03d7d56754ff6be';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'testarValorValido';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '178';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteSenha_1acd581cff5d1674a2815247e6760ffa80';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'tearDown';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '179';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteSenha_1a0eadecc5bf72436b42ee261e3fcaa093';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Senha *
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'senha';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '173';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteSenha_1a6f64fb1706461f08d9e22f87d10449fd';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'VALOR_VALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "250936"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '174';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteSenha_1ace20d74e26d56bc09ea5b60b46700d51';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'VALOR_INVALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "250903"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '175';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+  cp-fileline  = '171';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe para testar o dominio Senha.
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'TesteDominio';
+        node-link = {
+          node-link-id = 'classTesteDominio';
+        };
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'TesteSenha';
+        node-link = {
+          node-link-id = 'classTesteSenha';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'TesteDominio';
+        node-link = {
+          node-link-id = 'classTesteDominio';
+        };
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'TesteSenha';
+        node-link = {
+          node-link-id = 'classTesteSenha';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classTesteSetor';
+  cp-name   = 'TesteSetor';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'classTesteDominio';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteSetor_1ac8bcb66d6171a23acf903f130dfcf872';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setUp';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '191';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteSetor_1ad40d3be0a7a2bbf4936307d016591857';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'testarValorInvalido';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '192';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteSetor_1adab2f66a6215cd288232cc3aea3499c6';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'testarValorValido';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '193';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteSetor_1abd00bb2c367dac441332f6192a814940';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'tearDown';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '194';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteSetor_1ad7cd893e030ccd532a5bc85d73efaabb';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Setor *
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setor';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '188';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteSetor_1a11fde6f7d035aadfcd0a2928d0ab2e20';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'VALOR_VALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "Quimica e petroquimica"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '189';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteSetor_1acb0945df85e54541399976d3e7ebf892';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'VALOR_INVALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "Computacao"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+      sec-mem-desc-line = '190';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+  cp-fileline  = '186';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe para testar o dominio Setor.
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'TesteDominio';
+        node-link = {
+          node-link-id = 'classTesteDominio';
+        };
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'TesteSetor';
+        node-link = {
+          node-link-id = 'classTesteSetor';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'TesteDominio';
+        node-link = {
+          node-link-id = 'classTesteDominio';
+        };
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'TesteSetor';
+        node-link = {
+          node-link-id = 'classTesteSetor';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classTesteTitulo';
+  cp-name   = 'TesteTitulo';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'classTesteEntidade';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteTitulo_1aca92ef1f6df3cdc2cb8b654c6a3f7079';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setUp';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '67';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteTitulo_1a413ffa9e98203cef7825484d3c41cdd9';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'tearDown';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '68';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTesteTitulo_1a96192f34887aa01026ebe985ad7bbe41';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'testarCenarioSucesso';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '69';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteTitulo_1a46e6dba753fb4dda0dc3a626757a2e5e';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'CODIGOTIT_VALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "LCI00000000"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '60';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteTitulo_1a1d56df0d15bf30c59749fe4f700e7196';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'EMISSOR_VALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "Wagner Nunes"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '61';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteTitulo_1a85a6114f0a713eb426f4bf5ee2679687';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'SETOR_VALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "Energia"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '62';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteTitulo_1a266a98fc97ab41153bd7a5216550cba1';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'EMISSAO_VALIDA';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "01-11-2001"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '63';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteTitulo_1a1aae8f3a83cb859f47c4328e50784b49';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'VENCIMENTO_VALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "01-11-2099"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '64';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteTitulo_1a1b8e0e948ba6cb9faab494153818d3be';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'VALOR_VALIDO';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "999.999,99"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '65';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTesteTitulo_1a4e6146f884a90da156e6ff9a99559f3e';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Titulo *
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'titulo';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+      sec-mem-desc-line = '66';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+  cp-fileline  = '59';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe para testar a entidade Titulo.
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'TesteEntidade';
+        node-link = {
+          node-link-id = 'classTesteEntidade';
+        };
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'TesteTitulo';
+        node-link = {
+          node-link-id = 'classTesteTitulo';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'TesteEntidade';
+        node-link = {
+          node-link-id = 'classTesteEntidade';
+        };
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'TesteTitulo';
+        node-link = {
+          node-link-id = 'classTesteTitulo';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classTitulo';
+  cp-name   = 'Titulo';
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTitulo_1a151600a31622c0adc5fd2b76c763782f';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setCodigo';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const CodigoTitulo &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'codigo';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '103';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para atribuir o codigo.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param string com o valor do codigo a ser atribuido
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTitulo_1a36bb03c15dac38887ec2816552ff3d36';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+CodigoTitulo
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getCodigo';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '108';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para obter o valor do codigo.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@return String com o valor do codigo
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTitulo_1a053a055a4200ec41d8d011ab4099e181';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setEmissor';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const Nome &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'emissor';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '114';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para atribuir o emissor.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param string com o valor do emissor a ser atribuido
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTitulo_1a4ba5d846b4d76ad8b109454dee840a87';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Nome
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getEmissor';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '119';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para obter o valor do emissor.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@return String com o valor do emissor
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTitulo_1a3b9ce41529e0443b032757d857336db8';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setSetor';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const Setor &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'setor';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '125';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para atribuir o setor.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param string com o valor do setor a ser atribuido
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTitulo_1a717802cd9bba9e048266589657500b90';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Setor
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getSetor';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '130';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para obter o valor do setor.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@return String com o valor do setor
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTitulo_1a6b2666990893b55d2538c281f1469e4f';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setEmissao';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const Data &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'emissao';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '136';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para atribuir a emissao.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param string com o valor da emissa a ser atribuida
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTitulo_1a3e073f07e9189056c0c279dd551f6f9e';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Data
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getEmissao';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '141';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para obter o valor da emissao.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@return String com o valor da emissao
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTitulo_1aad38578cc41a0ecab4def014d3d06102';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setVencimento';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const Data &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'vencimento';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '147';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para atribuir o vencimento.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param string com o valor do vencimento a ser atribuido
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTitulo_1aea8866f26a2fc68bf72550fd7326da0e';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Data
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getVencimento';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '152';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para obter o valor do vencimento.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@return String com o valor do vencimento
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTitulo_1a42dda2c14902c69394068f3d19a09fbe';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setValor';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const Dinheiro &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'valor';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '158';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para atribuir o valor.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param string com o valor do valor a ser atribuido
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classTitulo_1a42d2b844bd7b25e7eebd28751cb21686';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Dinheiro
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getValor';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '163';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Metodo para obter o valor do dinheiro.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@return String com o valor do dinheiro
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTitulo_1a6f057aa5f03afb7c54e25ea12a527254';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+CodigoTitulo
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'codigo';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '91';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTitulo_1af9dc3379750033d27dc4800419bd0230';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Nome
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'emissor';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '92';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTitulo_1a74d5a82a8ecc2a12d540dbd09a7bd490';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Setor
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setor';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '93';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTitulo_1a13f0edfbefad8e25998dc0fae9e2369a';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Data
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'emissao';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '94';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTitulo_1a2fc0a15795f7cf4b5037ed0d3398a7e0';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Data
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'vencimento';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '95';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classTitulo_1a09a4314c4936fb75f7b1cc323a9b4d18';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Dinheiro
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'valor';
+      sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+      sec-mem-desc-line = '96';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+  cp-fileline  = '89';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Classe Entidade Titulo, cujos atributos sao:
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+ - codigo, objeto da classe CodigoTitulo;
+ - nome, objeto da classe Nome;
+ - setor, objeto da classe Setor;
+ - emissao, objeto da classe Data;
+ - vencimento, objeto da classe Data;
+ - valor, objeto da classe Dinheiro;
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+file = {
+  file-id   = 'dominios_8cpp';
+  file-name = 'dominios.cpp';
+  file-full-name  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'dominios_8h';
+  file-name = 'dominios.h';
+  file-full-name  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'entidades_8cpp';
+  file-name = 'entidades.cpp';
+  file-full-name  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'entidades_8h';
+  file-name = 'entidades.h';
+  file-full-name  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/entidades.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'main_8cpp';
+  file-name = 'main.cpp';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'main';
+      func-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/main.cpp';
+      func-mem-desc-line = '7';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/main.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'testes__dominios_8cpp';
+  file-name = 'testes_dominios.cpp';
+  file-full-name  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'testes__dominios_8h';
+  file-name = 'testes_dominios.h';
+  file-full-name  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_dominios.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'testes__entidades_8cpp';
+  file-name = 'testes_entidades.cpp';
+  file-full-name  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'testes__entidades_8h';
+  file-name = 'testes_entidades.h';
+  file-full-name  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+  namespace = {
+    ns-id   = 'namespacestd';
+    ns-name = 'std';
+  ns-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/dominios.cpp';
+  ns-fileline  = '3';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };

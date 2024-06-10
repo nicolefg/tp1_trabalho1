@@ -1,0 +1,27 @@
+digraph "Dominio"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="Dominio",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Classe abstrata que representa um dominio generico."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="CPF",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCPF.html",tooltip="Classe CPF representando uma string que deve possuir as seguintes regras de formatacao:"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="CodigoPagamento",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCodigoPagamento.html",tooltip="Classe CodigoPagamento representando uma string que deve possuir as seguintes regras de formatacao:"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="CodigoTitulo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCodigoTitulo.html",tooltip="Classe CodigoTitulo representando uma string que deve possuir as seguintes regras de formatacao:"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classData.html",tooltip="Classe Data representando uma string que deve possuir as seguintes regras de formatação:"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Dinheiro",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDinheiro.html",tooltip="Classe Dinheiro representando uma string que deve possuir as seguintes regras de formatação:"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Estado",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classEstado.html",tooltip="Classe Estado representando uma string que deve possuir os seguintes valores:"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Nome",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNome.html",tooltip="Classe Nome representando uma string que deve possuir as seguintes regras de formatacao:"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Percentual",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPercentual.html",tooltip="Classe Dinheiro representando uma string que deve ser:"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Senha",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSenha.html",tooltip="Classe Senha representando uma string que deve possuir as seguintes regras de formatacao:"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Setor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSetor.html",tooltip="Classe Estado representando uma string que deve possuir os seguintes valores:"];
+}
