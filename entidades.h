@@ -9,7 +9,7 @@
 *  - nome, objeto da classe Nome;
 *  - senha, objeto da classe Senha.
 */
-class Conta {
+class Conta { //222001449
     private:
         CPF cpf;
         Nome nome;
@@ -86,7 +86,7 @@ inline Senha Conta::getSenha() const {
 *  - vencimento, objeto da classe Data;
 *  - valor, objeto da classe Dinheiro;
 */
-class Titulo {
+class Titulo { //222001449
     private:
         CodigoTitulo codigo;
         Nome emissor;
@@ -220,7 +220,7 @@ inline Dinheiro Titulo::getValor() const {
 *  - percentual, objeto da classe Percentual;
 *  - estado, objeto da classe Estado;
 */
-class Pagamento {
+class Pagamento { //222001449
     private: 
         CodigoPagamento codigo;
         Data data;

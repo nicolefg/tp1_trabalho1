@@ -12,7 +12,7 @@ using namespace std;
  *
  * @brief Classe abstrata que representa um teste de dominio generico
  */
-class TesteDominio {
+class TesteDominio { //221030858
     private:
         virtual void setUp()= 0;                  // Metodo para criar unidade em teste
         virtual void tearDown()= 0;               // Metodo para destruir unidade em teste
@@ -43,7 +43,7 @@ class TesteDominio {
 /**
  * @brief Classe para testar o dominio CodigoPagamento
  */
-class TesteCodigoPagamento : public TesteDominio {
+class TesteCodigoPagamento : public TesteDominio { //221030858
     private:
         CodigoPagamento *codigopagamento;
         const string VALOR_VALIDO = "12345678";
@@ -59,7 +59,7 @@ class TesteCodigoPagamento : public TesteDominio {
 /**
  * @brief Classe para testar o dominio CodigoTitulo
  */
-class TesteCodigoTitulo : public TesteDominio {
+class TesteCodigoTitulo : public TesteDominio { //221030858
     private:
         CodigoTitulo *codigotitulo;
         const string VALOR_VALIDO = "CRAAH73T60O";
@@ -74,7 +74,7 @@ class TesteCodigoTitulo : public TesteDominio {
 /**
  * @brief Classe para testar o dominio CPF
  */
-class TesteCPF : public TesteDominio {
+class TesteCPF : public TesteDominio { //221030858
     private:
         CPF *cpf;
         const string VALOR_VALIDO = "082.534.051-97";
@@ -90,7 +90,7 @@ class TesteCPF : public TesteDominio {
 /**
  * @brief Classe para testar o dominio Data
  */
-class TesteData : public TesteDominio {
+class TesteData : public TesteDominio { //221030858
     private:
         Data *data;
         const string VALOR_VALIDO = "25-09-2003";
@@ -106,7 +106,7 @@ class TesteData : public TesteDominio {
 /**
  * @brief Classe para testar o dominio Dinheiro
  */
-class TesteDinheiro : public TesteDominio {
+class TesteDinheiro : public TesteDominio { //221030858
     private:
         Dinheiro *dinheiro;
         const string VALOR_VALIDO = "3.563,56";
@@ -122,7 +122,7 @@ class TesteDinheiro : public TesteDominio {
 /**
  * @brief Classe para testar o dominio Estado
  */
-class TesteEstado : public TesteDominio {
+class TesteEstado : public TesteDominio { //221030858
     private:
         Estado *estado;
         const string VALOR_VALIDO = "Previsto";
@@ -137,7 +137,7 @@ class TesteEstado : public TesteDominio {
 /**
  * @brief Classe para testar o dominio Nome
  */
-class TesteNome : public TesteDominio {
+class TesteNome : public TesteDominio { //221030858
     private:
         Nome *nome;
         const string VALOR_VALIDO = "Nicole Gomes";
@@ -153,7 +153,7 @@ class TesteNome : public TesteDominio {
 /**
  * @brief Classe para testar o dominio Percentual
  */
-class TestePercentual : public TesteDominio {
+class TestePercentual : public TesteDominio { //221030858
     private:
         Percentual *percentual;
         const string VALOR_VALIDO = "56";
@@ -168,7 +168,7 @@ class TestePercentual : public TesteDominio {
 /**
  * @brief Classe para testar o dominio Senha
  */
-class TesteSenha : public TesteDominio {
+class TesteSenha : public TesteDominio { //221030858
     private:
         Senha *senha;
         const string VALOR_VALIDO = "250936";
@@ -183,7 +183,7 @@ class TesteSenha : public TesteDominio {
 /**
  * @brief Classe para testar o dominio Setor
  */
-class TesteSetor : public TesteDominio {
+class TesteSetor : public TesteDominio { //221030858
     private:
         Setor *setor;
         const string VALOR_VALIDO = "Quimica e petroquimica";

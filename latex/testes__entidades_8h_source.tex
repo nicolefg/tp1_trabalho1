@@ -11,7 +11,7 @@
 \DoxyCodeLine{8 \textcolor{preprocessor}{\#include "{}dominios.h"{}}}
 \DoxyCodeLine{9 \textcolor{preprocessor}{\#include "{}entidades.h"{}}}
 \DoxyCodeLine{10 }
-\DoxyCodeLine{15 \textcolor{keyword}{class }\mbox{\hyperlink{classTesteEntidade}{TesteEntidade}} \{}
+\DoxyCodeLine{15 \textcolor{keyword}{class }\mbox{\hyperlink{classTesteEntidade}{TesteEntidade}} \{ \textcolor{comment}{//221030858}}
 \DoxyCodeLine{16     \textcolor{keyword}{private}:}
 \DoxyCodeLine{17         \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} setUp()= 0;                \textcolor{comment}{// Metodo para criar unidade em teste}}
 \DoxyCodeLine{18         \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} tearDown()= 0;             \textcolor{comment}{// Metodo para destruir unidade em teste}}
@@ -25,44 +25,46 @@
 \DoxyCodeLine{39 \};}
 \DoxyCodeLine{40 }
 \DoxyCodeLine{41 \textcolor{comment}{// -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
-\DoxyCodeLine{45 \textcolor{comment}{}\textcolor{keyword}{class }\mbox{\hyperlink{classTesteConta}{TesteConta}} : \textcolor{keyword}{public} \mbox{\hyperlink{classTesteEntidade}{TesteEntidade}} \{}
-\DoxyCodeLine{46     \textcolor{keyword}{const} \textcolor{keywordtype}{string} CPF\_VALIDO = \textcolor{stringliteral}{"{}343.539.501-\/00"{}};}
-\DoxyCodeLine{47     \textcolor{keyword}{const} \textcolor{keywordtype}{string} NOME\_VALIDO = \textcolor{stringliteral}{"{}Valeria Penna"{}};}
-\DoxyCodeLine{48     \textcolor{keyword}{const} \textcolor{keywordtype}{string} SENHA\_VALIDA = \textcolor{stringliteral}{"{}586794"{}};}
-\DoxyCodeLine{49     \mbox{\hyperlink{classConta}{Conta}} *conta;}
-\DoxyCodeLine{50     \textcolor{keywordtype}{void} setUp();}
-\DoxyCodeLine{51     \textcolor{keywordtype}{void} tearDown();}
-\DoxyCodeLine{52     \textcolor{keywordtype}{void} testarCenarioSucesso();}
-\DoxyCodeLine{53 \};}
-\DoxyCodeLine{54 }
-\DoxyCodeLine{55 \textcolor{comment}{// -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
-\DoxyCodeLine{59 \textcolor{comment}{}\textcolor{keyword}{class }\mbox{\hyperlink{classTesteTitulo}{TesteTitulo}} : \textcolor{keyword}{public} \mbox{\hyperlink{classTesteEntidade}{TesteEntidade}} \{}
-\DoxyCodeLine{60     \textcolor{keyword}{const} \textcolor{keywordtype}{string} CODIGOTIT\_VALIDO = \textcolor{stringliteral}{"{}LCI00000000"{}};}
-\DoxyCodeLine{61     \textcolor{keyword}{const} \textcolor{keywordtype}{string} EMISSOR\_VALIDO = \textcolor{stringliteral}{"{}Wagner Nunes"{}};}
-\DoxyCodeLine{62     \textcolor{keyword}{const} \textcolor{keywordtype}{string} SETOR\_VALIDO = \textcolor{stringliteral}{"{}Energia"{}};}
-\DoxyCodeLine{63     \textcolor{keyword}{const} \textcolor{keywordtype}{string} EMISSAO\_VALIDA = \textcolor{stringliteral}{"{}01-\/11-\/2001"{}};}
-\DoxyCodeLine{64     \textcolor{keyword}{const} \textcolor{keywordtype}{string} VENCIMENTO\_VALIDO = \textcolor{stringliteral}{"{}01-\/11-\/2099"{}};}
-\DoxyCodeLine{65     \textcolor{keyword}{const} \textcolor{keywordtype}{string} VALOR\_VALIDO = \textcolor{stringliteral}{"{}999.999,99"{}};}
-\DoxyCodeLine{66     \mbox{\hyperlink{classTitulo}{Titulo}} *titulo;}
-\DoxyCodeLine{67     \textcolor{keywordtype}{void} setUp();}
-\DoxyCodeLine{68     \textcolor{keywordtype}{void} tearDown();}
-\DoxyCodeLine{69     \textcolor{keywordtype}{void} testarCenarioSucesso();}
-\DoxyCodeLine{70 \};}
-\DoxyCodeLine{71 }
-\DoxyCodeLine{72 \textcolor{comment}{// -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
-\DoxyCodeLine{76 \textcolor{comment}{}\textcolor{keyword}{class }\mbox{\hyperlink{classTestePagamento}{TestePagamento}} : \textcolor{keyword}{public} \mbox{\hyperlink{classTesteEntidade}{TesteEntidade}} \{}
-\DoxyCodeLine{77 \textcolor{keyword}{private}:}
-\DoxyCodeLine{78     \textcolor{keyword}{const} \textcolor{keywordtype}{string} CODIGOPAG\_VALIDO = \textcolor{stringliteral}{"{}87654321"{}};}
-\DoxyCodeLine{79     \textcolor{keyword}{const} \textcolor{keywordtype}{string} DATA\_VALIDA = \textcolor{stringliteral}{"{}31-\/07-\/2068"{}};}
-\DoxyCodeLine{80     \textcolor{keyword}{const} \textcolor{keywordtype}{string} PERCENTUAL\_VALIDO = \textcolor{stringliteral}{"{}69"{}};}
-\DoxyCodeLine{81     \textcolor{keyword}{const} \textcolor{keywordtype}{string} ESTADO\_VALIDO = \textcolor{stringliteral}{"{}Inadimplente"{}};}
-\DoxyCodeLine{82     \mbox{\hyperlink{classPagamento}{Pagamento}} *pagamento;}
-\DoxyCodeLine{83     \textcolor{keywordtype}{void} setUp();}
-\DoxyCodeLine{84     \textcolor{keywordtype}{void} tearDown();}
-\DoxyCodeLine{85     \textcolor{keywordtype}{void} testarCenarioSucesso();}
-\DoxyCodeLine{86 \};}
-\DoxyCodeLine{87 }
-\DoxyCodeLine{88 }
-\DoxyCodeLine{89 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// TESTES\_H\_ENT\_INCLUDED}}
+\DoxyCodeLine{45 \textcolor{comment}{}\textcolor{keyword}{class }\mbox{\hyperlink{classTesteConta}{TesteConta}} : \textcolor{keyword}{public} \mbox{\hyperlink{classTesteEntidade}{TesteEntidade}} \{ \textcolor{comment}{//221030858}}
+\DoxyCodeLine{46 \textcolor{keyword}{private}:}
+\DoxyCodeLine{47     \textcolor{keyword}{const} \textcolor{keywordtype}{string} CPF\_VALIDO = \textcolor{stringliteral}{"{}343.539.501-\/00"{}};}
+\DoxyCodeLine{48     \textcolor{keyword}{const} \textcolor{keywordtype}{string} NOME\_VALIDO = \textcolor{stringliteral}{"{}Valeria Penna"{}};}
+\DoxyCodeLine{49     \textcolor{keyword}{const} \textcolor{keywordtype}{string} SENHA\_VALIDA = \textcolor{stringliteral}{"{}586794"{}};}
+\DoxyCodeLine{50     \mbox{\hyperlink{classConta}{Conta}} *conta;}
+\DoxyCodeLine{51     \textcolor{keywordtype}{void} setUp();}
+\DoxyCodeLine{52     \textcolor{keywordtype}{void} tearDown();}
+\DoxyCodeLine{53     \textcolor{keywordtype}{void} testarCenarioSucesso();}
+\DoxyCodeLine{54 \};}
+\DoxyCodeLine{55 }
+\DoxyCodeLine{56 \textcolor{comment}{// -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{60 \textcolor{comment}{}\textcolor{keyword}{class }\mbox{\hyperlink{classTesteTitulo}{TesteTitulo}} : \textcolor{keyword}{public} \mbox{\hyperlink{classTesteEntidade}{TesteEntidade}} \{ \textcolor{comment}{//221030858}}
+\DoxyCodeLine{61 \textcolor{keyword}{private}:}
+\DoxyCodeLine{62     \textcolor{keyword}{const} \textcolor{keywordtype}{string} CODIGOTIT\_VALIDO = \textcolor{stringliteral}{"{}LCI00000000"{}};}
+\DoxyCodeLine{63     \textcolor{keyword}{const} \textcolor{keywordtype}{string} EMISSOR\_VALIDO = \textcolor{stringliteral}{"{}Wagner Nunes"{}};}
+\DoxyCodeLine{64     \textcolor{keyword}{const} \textcolor{keywordtype}{string} SETOR\_VALIDO = \textcolor{stringliteral}{"{}Energia"{}};}
+\DoxyCodeLine{65     \textcolor{keyword}{const} \textcolor{keywordtype}{string} EMISSAO\_VALIDA = \textcolor{stringliteral}{"{}01-\/11-\/2001"{}};}
+\DoxyCodeLine{66     \textcolor{keyword}{const} \textcolor{keywordtype}{string} VENCIMENTO\_VALIDO = \textcolor{stringliteral}{"{}01-\/11-\/2099"{}};}
+\DoxyCodeLine{67     \textcolor{keyword}{const} \textcolor{keywordtype}{string} VALOR\_VALIDO = \textcolor{stringliteral}{"{}999.999,99"{}};}
+\DoxyCodeLine{68     \mbox{\hyperlink{classTitulo}{Titulo}} *titulo;}
+\DoxyCodeLine{69     \textcolor{keywordtype}{void} setUp();}
+\DoxyCodeLine{70     \textcolor{keywordtype}{void} tearDown();}
+\DoxyCodeLine{71     \textcolor{keywordtype}{void} testarCenarioSucesso();}
+\DoxyCodeLine{72 \};}
+\DoxyCodeLine{73 }
+\DoxyCodeLine{74 \textcolor{comment}{// -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{78 \textcolor{comment}{}\textcolor{keyword}{class }\mbox{\hyperlink{classTestePagamento}{TestePagamento}} : \textcolor{keyword}{public} \mbox{\hyperlink{classTesteEntidade}{TesteEntidade}} \{ \textcolor{comment}{//221030858}}
+\DoxyCodeLine{79 \textcolor{keyword}{private}:}
+\DoxyCodeLine{80     \textcolor{keyword}{const} \textcolor{keywordtype}{string} CODIGOPAG\_VALIDO = \textcolor{stringliteral}{"{}87654321"{}};}
+\DoxyCodeLine{81     \textcolor{keyword}{const} \textcolor{keywordtype}{string} DATA\_VALIDA = \textcolor{stringliteral}{"{}31-\/07-\/2068"{}};}
+\DoxyCodeLine{82     \textcolor{keyword}{const} \textcolor{keywordtype}{string} PERCENTUAL\_VALIDO = \textcolor{stringliteral}{"{}69"{}};}
+\DoxyCodeLine{83     \textcolor{keyword}{const} \textcolor{keywordtype}{string} ESTADO\_VALIDO = \textcolor{stringliteral}{"{}Inadimplente"{}};}
+\DoxyCodeLine{84     \mbox{\hyperlink{classPagamento}{Pagamento}} *pagamento;}
+\DoxyCodeLine{85     \textcolor{keywordtype}{void} setUp();}
+\DoxyCodeLine{86     \textcolor{keywordtype}{void} tearDown();}
+\DoxyCodeLine{87     \textcolor{keywordtype}{void} testarCenarioSucesso();}
+\DoxyCodeLine{88 \};}
+\DoxyCodeLine{89 }
+\DoxyCodeLine{90 }
+\DoxyCodeLine{91 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// TESTES\_H\_ENT\_INCLUDED}}
 
 \end{DoxyCode}

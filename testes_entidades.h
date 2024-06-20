@@ -12,7 +12,7 @@ using namespace std;
  *
  * @brief Classe abstrata que representa um teste de entidade generico
  */
-class TesteEntidade {
+class TesteEntidade { //221030858
     private:
         virtual void setUp()= 0;                // Metodo para criar unidade em teste
         virtual void tearDown()= 0;             // Metodo para destruir unidade em teste
@@ -42,7 +42,8 @@ class TesteEntidade {
 /**
  * @brief Classe para testar a entidade Conta
  */
-class TesteConta : public TesteEntidade {
+class TesteConta : public TesteEntidade { //221030858
+private:
     const string CPF_VALIDO = "343.539.501-00";
     const string NOME_VALIDO = "Valeria Penna";
     const string SENHA_VALIDA = "586794";
@@ -56,7 +57,8 @@ class TesteConta : public TesteEntidade {
 /**
  * @brief Classe para testar a entidade Titulo
  */
-class TesteTitulo : public TesteEntidade {
+class TesteTitulo : public TesteEntidade { //221030858
+private:
     const string CODIGOTIT_VALIDO = "LCI00000000";
     const string EMISSOR_VALIDO = "Wagner Nunes";
     const string SETOR_VALIDO = "Energia";
@@ -73,7 +75,7 @@ class TesteTitulo : public TesteEntidade {
 /**
  * @brief Classe para testar a entidade Pagamento
  */
-class TestePagamento : public TesteEntidade {
+class TestePagamento : public TesteEntidade { //221030858
 private:
     const string CODIGOPAG_VALIDO = "87654321";
     const string DATA_VALIDA = "31-07-2068";

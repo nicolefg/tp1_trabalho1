@@ -2344,7 +2344,7 @@ void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'setUp';
       sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
-      sec-mem-desc-line = '50';
+      sec-mem-desc-line = '51';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -2362,7 +2362,7 @@ void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'tearDown';
       sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
-      sec-mem-desc-line = '51';
+      sec-mem-desc-line = '52';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -2380,7 +2380,7 @@ void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'testarCenarioSucesso';
       sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
-      sec-mem-desc-line = '52';
+      sec-mem-desc-line = '53';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -2404,7 +2404,7 @@ _EnD_oF_dEf_TeXt_;
 = "343.539.501-00"
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
-      sec-mem-desc-line = '46';
+      sec-mem-desc-line = '47';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -2425,7 +2425,7 @@ _EnD_oF_dEf_TeXt_;
 = "Valeria Penna"
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
-      sec-mem-desc-line = '47';
+      sec-mem-desc-line = '48';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -2446,7 +2446,7 @@ _EnD_oF_dEf_TeXt_;
 = "586794"
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
-      sec-mem-desc-line = '48';
+      sec-mem-desc-line = '49';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -2464,7 +2464,7 @@ Conta *
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'conta';
       sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
-      sec-mem-desc-line = '49';
+      sec-mem-desc-line = '50';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -4190,7 +4190,7 @@ void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'setUp';
       sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
-      sec-mem-desc-line = '83';
+      sec-mem-desc-line = '85';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -4208,7 +4208,7 @@ void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'tearDown';
       sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
-      sec-mem-desc-line = '84';
+      sec-mem-desc-line = '86';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -4226,7 +4226,7 @@ void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'testarCenarioSucesso';
       sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
-      sec-mem-desc-line = '85';
+      sec-mem-desc-line = '87';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -4250,7 +4250,7 @@ _EnD_oF_dEf_TeXt_;
 = "87654321"
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
-      sec-mem-desc-line = '78';
+      sec-mem-desc-line = '80';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -4271,7 +4271,7 @@ _EnD_oF_dEf_TeXt_;
 = "31-07-2068"
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
-      sec-mem-desc-line = '79';
+      sec-mem-desc-line = '81';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -4292,7 +4292,7 @@ _EnD_oF_dEf_TeXt_;
 = "69"
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
-      sec-mem-desc-line = '80';
+      sec-mem-desc-line = '82';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -4313,7 +4313,7 @@ _EnD_oF_dEf_TeXt_;
 = "Inadimplente"
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
-      sec-mem-desc-line = '81';
+      sec-mem-desc-line = '83';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -4331,7 +4331,7 @@ Pagamento *
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'pagamento';
       sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
-      sec-mem-desc-line = '82';
+      sec-mem-desc-line = '84';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -4341,7 +4341,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
-  cp-fileline  = '76';
+  cp-fileline  = '78';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
 Classe para testar a entidade Pagamento.
 _EnD_oF_dEf_TeXt_;
@@ -5006,7 +5006,7 @@ void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'setUp';
       sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
-      sec-mem-desc-line = '67';
+      sec-mem-desc-line = '69';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -5024,7 +5024,7 @@ void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'tearDown';
       sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
-      sec-mem-desc-line = '68';
+      sec-mem-desc-line = '70';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -5042,7 +5042,7 @@ void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'testarCenarioSucesso';
       sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
-      sec-mem-desc-line = '69';
+      sec-mem-desc-line = '71';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -5066,7 +5066,7 @@ _EnD_oF_dEf_TeXt_;
 = "LCI00000000"
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
-      sec-mem-desc-line = '60';
+      sec-mem-desc-line = '62';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -5087,7 +5087,7 @@ _EnD_oF_dEf_TeXt_;
 = "Wagner Nunes"
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
-      sec-mem-desc-line = '61';
+      sec-mem-desc-line = '63';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -5108,7 +5108,7 @@ _EnD_oF_dEf_TeXt_;
 = "Energia"
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
-      sec-mem-desc-line = '62';
+      sec-mem-desc-line = '64';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -5129,7 +5129,7 @@ _EnD_oF_dEf_TeXt_;
 = "01-11-2001"
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
-      sec-mem-desc-line = '63';
+      sec-mem-desc-line = '65';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -5150,7 +5150,7 @@ _EnD_oF_dEf_TeXt_;
 = "01-11-2099"
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
-      sec-mem-desc-line = '64';
+      sec-mem-desc-line = '66';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -5171,7 +5171,7 @@ _EnD_oF_dEf_TeXt_;
 = "999.999,99"
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
-      sec-mem-desc-line = '65';
+      sec-mem-desc-line = '67';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -5189,7 +5189,7 @@ Titulo *
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'titulo';
       sec-mem-desc-file = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
-      sec-mem-desc-line = '66';
+      sec-mem-desc-line = '68';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -5199,7 +5199,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = '/home/nicole-ferreira-gomes/Documentos/TP1/tp1_trabalho1/testes_entidades.h';
-  cp-fileline  = '59';
+  cp-fileline  = '60';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
 Classe para testar a entidade Titulo.
 _EnD_oF_dEf_TeXt_;
